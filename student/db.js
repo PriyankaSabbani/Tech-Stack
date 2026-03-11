@@ -256,4 +256,3 @@ export default {
     getTransportDetails
 };
 
-gi
