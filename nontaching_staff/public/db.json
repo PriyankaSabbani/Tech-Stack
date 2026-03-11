@@ -1,0 +1,67 @@
+{
+  "staff": [
+    { "id": 1, "name": "Robert Johnson", "role": "Proctor", "email": "robert@school.com", "phone": "555-0101", "availability": "available", "specialization": "General", "branch": "All" },
+    { "id": 2, "name": "Maria Garcia", "role": "Supervisor", "email": "maria@school.com", "phone": "555-0102", "availability": "on-duty", "specialization": "CSE", "branch": "CSE" },
+    { "id": 3, "name": "James Wilson", "role": "Attendant", "email": "james@school.com", "phone": "555-0103", "availability": "available", "specialization": "IT", "branch": "IT" },
+    { "id": 4, "name": "Patricia Brown", "role": "Security", "email": "patricia@school.com", "phone": "555-0104", "availability": "off-duty", "specialization": "ECE", "branch": "ECE" },
+    { "id": 5, "name": "Michael Davis", "role": "Admin Assistant", "email": "michael@school.com", "phone": "555-0105", "availability": "available", "specialization": "AIML", "branch": "AIML" },
+    { "id": 6, "name": "Linda Martinez", "role": "Proctor", "email": "linda@school.com", "phone": "555-0106", "availability": "on-leave", "specialization": "DS", "branch": "DS" }
+  ],
+  "classes": [
+    { "id": 1, "name": "CSE-A", "subject": "Data Structures", "time": "08:00 - 09:00", "facultyAssigned": 1, "needsMonitoring": false, "branch": "CSE", "year": "2nd Year" },
+    { "id": 2, "name": "ECE-A", "subject": "Digital Electronics", "time": "09:00 - 10:00", "facultyAssigned": 2, "needsMonitoring": true, "branch": "ECE", "year": "2nd Year" },
+    { "id": 3, "name": "AIML-A", "subject": "Machine Learning", "time": "10:00 - 11:00", "facultyAssigned": 3, "needsMonitoring": false, "branch": "AIML", "year": "3rd Year" },
+    { "id": 4, "name": "IT-A", "subject": "Database Management", "time": "11:00 - 12:00", "facultyAssigned": null, "needsMonitoring": true, "branch": "IT", "year": "2nd Year" },
+    { "id": 5, "name": "DS-A", "subject": "Statistics", "time": "12:00 - 13:00", "facultyAssigned": 4, "needsMonitoring": false, "branch": "DS", "year": "3rd Year" },
+    { "id": 6, "name": "CSE-B", "subject": "Algorithms", "time": "13:00 - 14:00", "facultyAssigned": 5, "needsMonitoring": false, "branch": "CSE", "year": "2nd Year" },
+    { "id": 7, "name": "ECE-B", "subject": "Signal Processing", "time": "14:00 - 15:00", "facultyAssigned": null, "needsMonitoring": true, "branch": "ECE", "year": "3rd Year" },
+    { "id": 8, "name": "IT-B", "subject": "Web Development", "time": "15:00 - 16:00", "facultyAssigned": 1, "needsMonitoring": false, "branch": "IT", "year": "2nd Year" },
+    { "id": 9, "name": "AIML-B", "subject": "Neural Networks", "time": "16:00 - 17:00", "facultyAssigned": 3, "needsMonitoring": false, "branch": "AIML", "year": "3rd Year" },
+    { "id": 10, "name": "DS-B", "subject": "Data Visualization", "time": "17:00 - 18:00", "facultyAssigned": 4, "needsMonitoring": false, "branch": "DS", "year": "3rd Year" }
+  ],
+  "assignments": [
+    { "id": 1, "staffId": 2, "classId": 2, "date": "2024-01-15", "startTime": "09:00", "endTime": "10:00", "status": "completed", "notes": "Monitored science class due to faculty absence" },
+    { "id": 2, "staffId": 1, "classId": 4, "date": "2024-01-15", "startTime": "11:00", "endTime": "12:00", "status": "active", "notes": "Chemistry class without faculty" },
+    { "id": 3, "staffId": 3, "classId": 7, "date": "2024-01-15", "startTime": "14:00", "endTime": "15:00", "status": "active", "notes": "English class monitoring" }
+  ],
+  "schedules": [
+    { "id": 1, "staffId": 1, "date": "2024-01-15", "shiftStart": "08:00", "shiftEnd": "16:00", "location": "General", "status": "scheduled" },
+    { "id": 2, "staffId": 2, "date": "2024-01-15", "shiftStart": "09:00", "shiftEnd": "17:00", "location": "Science Labs", "status": "scheduled" },
+    { "id": 3, "staffId": 3, "date": "2024-01-15", "shiftStart": "10:00", "shiftEnd": "18:00", "location": "Computer Labs", "status": "scheduled" }
+  ],
+  "notifications": [
+    { "id": 1, "type": "faculty_absence", "title": "Faculty Absence Alert", "message": "Prof. John Smith will be absent tomorrow. Class 10-B needs monitoring.", "priority": "high", "relatedClass": "Class 10-B", "relatedFaculty": "Prof. John Smith", "timestamp": "2024-01-15T08:00:00", "read": false },
+    { "id": 2, "type": "assignment", "title": "New Assignment Created", "message": "Robert Johnson has been assigned to monitor Class 11-B.", "priority": "normal", "relatedClass": "Class 11-B", "relatedFaculty": "", "timestamp": "2024-01-15T09:30:00", "read": false },
+    { "id": 3, "type": "schedule", "title": "Schedule Change", "message": "James Wilson shift changed from morning to afternoon.", "priority": "low", "relatedClass": "", "relatedFaculty": "", "timestamp": "2024-01-14T15:00:00", "read": true },
+    { "id": 4, "type": "alert", "title": "Urgent: Staff Shortage", "message": "Only 2 staff members available for tomorrow. Please check availability.", "priority": "urgent", "relatedClass": "", "relatedFaculty": "", "timestamp": "2024-01-15T10:00:00", "read": false }
+  ],
+  "branches": [
+    { "id": 1, "name": "CSE", "fullName": "Computer Science Engineering", "code": "CSE" },
+    { "id": 2, "name": "ECE", "fullName": "Electronics & Communication Engineering", "code": "ECE" },
+    { "id": 3, "name": "AIML", "fullName": "Artificial Intelligence & Machine Learning", "code": "AIML" },
+    { "id": 4, "name": "IT", "fullName": "Information Technology", "code": "IT" },
+    { "id": 5, "name": "DS", "fullName": "Data Science", "code": "DS" }
+  ],
+  "faculty": [
+    { "id": 1, "name": "Dr. Sarah Anderson" },
+    { "id": 2, "name": "Prof. John Smith" },
+    { "id": 3, "name": "Dr. Emily Chen" },
+    { "id": 4, "name": "Prof. David Lee" },
+    { "id": 5, "name": "Dr. Rachel Kim" }
+  ],
+  "students": [
+    { "id": 1, "name": "Alice Johnson" },
+    { "id": 2, "name": "Bob Smith" },
+    { "id": 3, "name": "Charlie Brown" },
+    { "id": 4, "name": "Diana Prince" },
+    { "id": 5, "name": "Ethan Hunt" }
+  ],
+  "attendanceClasses": [
+    { "id": 1, "name": "CSE-A", "subject": "Data Structures" },
+    { "id": 2, "name": "ECE-A", "subject": "Digital Electronics" },
+    { "id": 3, "name": "AIML-A", "subject": "Machine Learning" },
+    { "id": 4, "name": "IT-A", "subject": "Database Management" },
+    { "id": 5, "name": "DS-A", "subject": "Statistics" }
+  ]
+}
+
