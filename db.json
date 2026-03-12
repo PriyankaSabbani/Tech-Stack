@@ -1,0 +1,36 @@
+{
+  "students": [
+    { "id": 1, "name": "Alice Johnson", "grade": "B.Tech CS", "semester": "Sem 3", "rollNo": "CS2301", "phone": "9876543210", "email": "alice@mriet.edu", "attendance": 85, "feeStatus": "Due", "statusColor": "#dc3545" },
+    { "id": 2, "name": "Bob Smith", "grade": "B.Tech IT", "semester": "Sem 5", "rollNo": "IT2101", "phone": "9876543211", "email": "bob@mriet.edu", "attendance": 92, "feeStatus": "Paid", "statusColor": "#28a745" },
+    { "id": 3, "name": "Charlie Brown", "grade": "B.Tech ME", "semester": "Sem 1", "rollNo": "ME2501", "phone": "9876543212", "email": "charlie@mriet.edu", "attendance": 78, "feeStatus": "Partial", "statusColor": "#ffc107" },
+    { "id": 4, "name": "David Lee", "grade": "B.Tech ECE", "semester": "Sem 7", "rollNo": "EC1901", "phone": "9876543213", "email": "david@mriet.edu", "attendance": 95, "feeStatus": "Paid", "statusColor": "#28a745" },
+    { "id": 5, "name": "Eve Davis", "grade": "B.Tech EE", "semester": "Sem 3", "rollNo": "EE2301", "phone": "9876543214", "email": "eve@mriet.edu", "attendance": 88, "feeStatus": "Due", "statusColor": "#dc3545" }
+  ],
+  "staff": [
+    { "id": 1, "name": "Dr. John Doe", "design": "Professor", "dept": "Computer Science", "phone": "123-456-7890", "email": "john@mriet.edu", "imgColor": "#17a2b8", "experience": "12 Years", "qualification": "Ph.D CS" },
+    { "id": 2, "name": "Prof. Jane Smith", "design": "Associate Prof.", "dept": "Information Tech", "phone": "123-456-7891", "email": "jane@mriet.edu", "imgColor": "#28a745", "experience": "8 Years", "qualification": "M.Tech IT" },
+    { "id": 3, "name": "Mr. Robert Brown", "design": "Lab Assistant", "dept": "Mechanical Engg.", "phone": "123-456-7892", "email": "robert@mriet.edu", "imgColor": "#ffc107", "experience": "5 Years", "qualification": "B.Tech ME" },
+    { "id": 4, "name": "Dr. Emily White", "design": "HOD", "dept": "Electronics & Comm.", "phone": "123-456-7893", "email": "emily@mriet.edu", "imgColor": "#dc3545", "experience": "15 Years", "qualification": "Ph.D ECE" },
+    { "id": 5, "name": "Mr. Michael Green", "design": "Assistant Prof.", "dept": "Electrical Engg.", "phone": "123-456-7894", "email": "michael@mriet.edu", "imgColor": "#0d6efd", "experience": "6 Years", "qualification": "M.Tech EE" },
+    { "id": 6, "name": "Ms. Sarah Connor", "design": "Librarian", "dept": "Central Library", "phone": "123-456-7895", "email": "sarah@mriet.edu", "imgColor": "#6f42c1", "experience": "9 Years", "qualification": "M.Lib.Sc" }
+  ],
+  "feeRecords": [
+    { "id": 1, "name": "Alice Johnson", "rollNo": "CS2301", "branch": "B.Tech CS", "amount": 50000, "status": "Pending", "statusColor": "#ffc107", "dueDate": "2023-12-15" },
+    { "id": 2, "name": "Rahul Sharma", "rollNo": "IT2101", "branch": "B.Tech IT", "amount": 20000, "status": "Cleared", "statusColor": "#28a745", "dueDate": "2023-11-28" },
+    { "id": 3, "name": "Sneha Patel", "rollNo": "ME2501", "branch": "B.Tech ME", "amount": 15000, "status": "Pending", "statusColor": "#ffc107", "dueDate": "2023-12-05" },
+    { "id": 4, "name": "David Lee", "rollNo": "EC1901", "branch": "B.Tech ECE", "amount": 35000, "status": "Overdue", "statusColor": "#dc3545", "dueDate": "2023-11-01" }
+  ],
+  "transport": [
+    { "id": 1, "name": "John Doe", "rollNo": "CS2301", "stop": "Koramangala", "bus": "12A" },
+    { "id": 2, "name": "Jane Smith", "rollNo": "EE2301", "stop": "Indiranagar", "bus": "12A" }
+  ],
+  "dashboard": [
+    {
+      "id": 1,
+      "totalStudents": 1250,
+      "totalStaff": 85,
+      "pendingFees": 50000,
+      "attendance": 92
+    }
+  ]
+}
