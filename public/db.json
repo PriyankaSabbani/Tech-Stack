@@ -1,0 +1,43 @@
+{
+  "inventory": [
+    { "id": "EQ-001", "name": "Digital Oscilloscope",  "lab": "Electronics Lab", "qty": 10, "available": 7,  "condition": "Good" },
+    { "id": "EQ-002", "name": "Centrifuge Machine",     "lab": "Biology Lab",     "qty": 4,  "available": 2,  "condition": "Fair" },
+    { "id": "EQ-003", "name": "Spectrophotometer",      "lab": "Chemistry Lab",   "qty": 6,  "available": 5,  "condition": "Good" },
+    { "id": "EQ-004", "name": "Microscope (Compound)",  "lab": "Biology Lab",     "qty": 15, "available": 12, "condition": "Good" },
+    { "id": "EQ-005", "name": "Function Generator",     "lab": "Electronics Lab", "qty": 8,  "available": 6,  "condition": "Fair" },
+    { "id": "EQ-006", "name": "pH Meter",               "lab": "Chemistry Lab",   "qty": 5,  "available": 0,  "condition": "Poor" },
+    { "id": "EQ-007", "name": "Bunsen Burner",          "lab": "Chemistry Lab",   "qty": 20, "available": 18, "condition": "Good" },
+    { "id": "EQ-008", "name": "Power Supply Unit",      "lab": "Electronics Lab", "qty": 12, "available": 9,  "condition": "Good" }
+  ],
+  "issued": [
+    { "id":"ISS-001", "student":"Rahul Sharma", "sid":"STU-2021-001", "equipment":"Digital Oscilloscope", "lab":"Electronics Lab", "issueDate":"2025-03-01", "returnDate":"2025-03-15", "status":"Issued" },
+    { "id":"ISS-002", "student":"Priya Patel",  "sid":"STU-2021-042", "equipment":"Compound Microscope",  "lab":"Biology Lab",     "issueDate":"2025-03-03", "returnDate":"2025-03-10", "status":"Overdue" },
+    { "id":"ISS-003", "student":"Arjun Singh",  "sid":"STU-2022-015", "equipment":"Spectrophotometer",    "lab":"Chemistry Lab",   "issueDate":"2025-03-05", "returnDate":"2025-03-20", "status":"Issued" },
+    { "id":"ISS-004", "student":"Sneha Rao",    "sid":"STU-2022-088", "equipment":"Function Generator",   "lab":"Electronics Lab", "issueDate":"2025-02-20", "returnDate":"2025-03-05", "status":"Returned" }
+  ],
+  "maintenance": [
+    { "equipment":"pH Meter",             "problem":"Calibration failure, readings inaccurate",      "date":"2025-03-01", "status":"Pending",     "tech":"Ravi Kumar" },
+    { "equipment":"Centrifuge Machine",   "problem":"Unusual vibration during high-speed operation", "date":"2025-03-03", "status":"In Progress", "tech":"Suresh T." },
+    { "equipment":"Digital Oscilloscope", "problem":"Screen flickering, channel 2 probe faulty",     "date":"2025-02-25", "status":"Resolved",    "tech":"Ravi Kumar" },
+    { "equipment":"Bunsen Burner",        "problem":"Gas valve stuck, ignition failure",             "date":"2025-03-05", "status":"Pending",     "tech":"Anand M." }
+  ],
+  "damage": [
+    { "equipment":"Compound Microscope", "reportedBy":"Dr. Meena K.",  "description":"Objective lens cracked during handling", "date":"2025-03-04", "severity":"High" },
+    { "equipment":"Power Supply Unit",   "reportedBy":"Ravi Kumar",    "description":"Short circuit, burnt smell observed",    "date":"2025-03-02", "severity":"High" },
+    { "equipment":"pH Meter",            "reportedBy":"Prof. Sharma",  "description":"Display cracked, unit non-functional",   "date":"2025-02-28", "severity":"Medium" },
+    { "equipment":"Bunsen Burner",       "reportedBy":"Lab Assistant", "description":"Minor gas leak detected at connector",   "date":"2025-03-06", "severity":"Low" }
+  ],
+  "schedule": [
+    { "lab":"Electronics Lab", "day":"Monday",    "time":"09:00–12:00", "subject":"Digital Electronics (B.Tech CSE IV)", "faculty":"Prof. Anand M.", "students":42, "status":"Scheduled" },
+    { "lab":"Chemistry Lab",   "day":"Tuesday",   "time":"10:00–01:00", "subject":"Organic Chemistry (B.Sc III)",        "faculty":"Dr. Meena K.",  "students":35, "status":"Scheduled" },
+    { "lab":"Biology Lab",     "day":"Wednesday", "time":"02:00–05:00", "subject":"Microbiology (B.Sc I)",               "faculty":"Prof. Sharma",  "students":28, "status":"Ongoing" },
+    { "lab":"Electronics Lab", "day":"Thursday",  "time":"09:00–12:00", "subject":"Circuits Lab (B.Tech ECE II)",        "faculty":"Prof. Rajan V.","students":38, "status":"Maintenance" },
+    { "lab":"Chemistry Lab",   "day":"Friday",    "time":"11:00–02:00", "subject":"Analytical Chemistry (M.Sc I)",       "faculty":"Dr. Leela S.",  "students":20, "status":"Scheduled" }
+  ],
+  "usageData": [
+    { "name":"Digital Oscilloscope", "lab":"Electronics Lab", "qty":10, "issued":24, "current":3, "util":72 },
+    { "name":"Compound Microscope",  "lab":"Biology Lab",     "qty":15, "issued":38, "current":5, "util":88 },
+    { "name":"Spectrophotometer",    "lab":"Chemistry Lab",   "qty":6,  "issued":15, "current":1, "util":55 },
+    { "name":"Bunsen Burner",        "lab":"Chemistry Lab",   "qty":20, "issued":52, "current":2, "util":91 }
+  ]
+}
