@@ -1,0 +1,5212 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Anil Kumar",
+      "grade": "8",
+      "address": "123, Some Street, City",
+      "attendance": 88,
+      "feeDue": 15000,
+      "parentId": 101,
+      "busNumber": "12A",
+      "route": "Main City - Campus Route",
+      "driver": "Mr. Ramesh"
+    },
+    {
+      "id": 2,
+      "name": "Rohit Verma",
+      "grade": "9",
+      "address": "45, Park Avenue, City",
+      "attendance": 92,
+      "feeDue": 0,
+      "parentId": 102,
+      "busNumber": "14B",
+      "route": "North Zone - Campus Route",
+      "driver": "Mr. Suresh"
+    },
+    {
+      "id": 3,
+      "name": "Priya Singh",
+      "grade": "10",
+      "address": "78, Lake View, City",
+      "attendance": 95,
+      "feeDue": 5000,
+      "parentId": 103,
+      "busNumber": "15C",
+      "route": "South Zone - Campus Route",
+      "driver": "Mr. Mahesh"
+    },
+    {
+      "id": 4,
+      "name": "Sneha Gupta",
+      "grade": "7",
+      "address": "12, Hill Top, City",
+      "attendance": 85,
+      "feeDue": 20000,
+      "parentId": 104,
+      "busNumber": "12A",
+      "route": "Main City - Campus Route",
+      "driver": "Mr. Ramesh"
+    },
+    {
+      "id": 5,
+      "name": "Rohan Patel",
+      "grade": "11",
+      "address": "56, Green Park, City",
+      "attendance": 78,
+      "feeDue": 10000,
+      "parentId": 105,
+      "busNumber": "18D",
+      "route": "East Zone - Campus Route",
+      "driver": "Mr. Karthik"
+    },
+    {
+      "id": 6,
+      "name": "Ayesha Khan",
+      "grade": "12",
+      "address": "89, Blue Ridge, City",
+      "attendance": 98,
+      "feeDue": 0,
+      "parentId": 106,
+      "busNumber": "14B",
+      "route": "North Zone - Campus Route",
+      "driver": "Mr. Suresh"
+    },
+    {
+      "id": 7,
+      "name": "Karthik Reddy",
+      "grade": "8",
+      "address": "34, Red Square, City",
+      "attendance": 82,
+      "feeDue": 12000,
+      "parentId": 107,
+      "busNumber": "15C",
+      "route": "South Zone - Campus Route",
+      "driver": "Mr. Mahesh"
+    },
+    {
+      "id": 8,
+      "name": "Meera Nair",
+      "grade": "9",
+      "address": "90, Whitefield, City",
+      "attendance": 91,
+      "feeDue": 0,
+      "parentId": 108,
+      "busNumber": "18D",
+      "route": "East Zone - Campus Route",
+      "driver": "Mr. Karthik"
+    },
+    {
+      "id": 9,
+      "name": "Aditya Sharma",
+      "grade": "10",
+      "address": "23, MG Road, City",
+      "attendance": 89,
+      "feeDue": 18000,
+      "parentId": 109,
+      "busNumber": "12A",
+      "route": "Main City - Campus Route",
+      "driver": "Mr. Ramesh"
+    },
+    {
+      "id": 10,
+      "name": "Kavita Joshi",
+      "grade": "11",
+      "address": "67, Brigade Road, City",
+      "attendance": 94,
+      "feeDue": 0,
+      "parentId": 110,
+      "busNumber": "14B",
+      "route": "North Zone - Campus Route",
+      "driver": "Mr. Suresh"
+    }
+  ],
+  "parents": [
+    {
+      "id": 101,
+      "name": "Arun Kumar",
+      "email": "parent@example.com",
+      "password": "password123",
+      "studentId": 1
+    },
+    {
+      "id": 102,
+      "name": "Vikram Verma",
+      "email": "parent2@example.com",
+      "password": "password123",
+      "studentId": 2
+    },
+    {
+      "id": 103,
+      "name": "Rajesh Singh",
+      "email": "parent3@example.com",
+      "password": "password123",
+      "studentId": 3
+    },
+    {
+      "id": 104,
+      "name": "Amit Gupta",
+      "email": "parent4@example.com",
+      "password": "password123",
+      "studentId": 4
+    },
+    {
+      "id": 105,
+      "name": "Sanjay Patel",
+      "email": "parent5@example.com",
+      "password": "password123",
+      "studentId": 5
+    },
+    {
+      "id": 106,
+      "name": "Imran Khan",
+      "email": "parent6@example.com",
+      "password": "password123",
+      "studentId": 6
+    },
+    {
+      "id": 107,
+      "name": "Srinivas Reddy",
+      "email": "parent7@example.com",
+      "password": "password123",
+      "studentId": 7
+    },
+    {
+      "id": 108,
+      "name": "Rajeev Nair",
+      "email": "parent8@example.com",
+      "password": "password123",
+      "studentId": 8
+    },
+    {
+      "id": 109,
+      "name": "Vijay Sharma",
+      "email": "parent9@example.com",
+      "password": "password123",
+      "studentId": 9
+    },
+    {
+      "id": 110,
+      "name": "Prakash Joshi",
+      "email": "parent10@example.com",
+      "password": "password123",
+      "studentId": 10
+    }
+  ],
+  "academicRecords": [
+    {
+      "studentId": 1,
+      "SUBJECTS": [
+        {
+          "code": "CS401",
+          "name": "Data Structures & Algorithms",
+          "cat": "Core",
+          "int": 27,
+          "ext": 62,
+          "cr": 4
+        },
+        {
+          "code": "CS402",
+          "name": "Computer Networks",
+          "cat": "Core",
+          "int": 25,
+          "ext": 58,
+          "cr": 4
+        },
+        {
+          "code": "CS403",
+          "name": "Operating Systems",
+          "cat": "Core",
+          "int": 28,
+          "ext": 65,
+          "cr": 4
+        },
+        {
+          "code": "CS404",
+          "name": "Database Management Systems",
+          "cat": "Core",
+          "int": 26,
+          "ext": 60,
+          "cr": 4
+        },
+        {
+          "code": "CS405",
+          "name": "Software Engineering",
+          "cat": "Elective",
+          "int": 24,
+          "ext": 55,
+          "cr": 3
+        },
+        {
+          "code": "CS406",
+          "name": "Web Technologies Lab",
+          "cat": "Lab",
+          "int": 29,
+          "ext": 68,
+          "cr": 2
+        },
+        {
+          "code": "CS407",
+          "name": "Artificial Intelligence",
+          "cat": "Elective",
+          "int": 23,
+          "ext": 57,
+          "cr": 3
+        }
+      ],
+      "EXAMS": [
+        {
+          "n": "Mid-Term Exam",
+          "sub": "Data Structures",
+          "date": "Feb 10",
+          "sc": 28,
+          "max": 30,
+          "clr": "#1d4ed8"
+        },
+        {
+          "n": "Internal Test 2",
+          "sub": "Comp. Networks",
+          "date": "Feb 18",
+          "sc": 23,
+          "max": 25,
+          "clr": "#0c2461"
+        },
+        {
+          "n": "Lab Practical",
+          "sub": "Web Technologies",
+          "date": "Feb 24",
+          "sc": 29,
+          "max": 30,
+          "clr": "#dc2626"
+        },
+        {
+          "n": "Assignment Test",
+          "sub": "AI Fundamentals",
+          "date": "Mar 02",
+          "sc": 19,
+          "max": 20,
+          "clr": "#3b82f6"
+        }
+      ],
+      "NOTICES": [
+        {
+          "t": "Semester V Registration",
+          "p": "Register before 20th March 2026",
+          "time": "2 hrs ago",
+          "dot": "#dc2626"
+        },
+        {
+          "t": "Sem IV Results Declared",
+          "p": "Official result now available",
+          "time": "Yesterday",
+          "dot": "#16a34a"
+        },
+        {
+          "t": "Parent-Teacher Meet",
+          "p": "Scheduled 18th March 2026",
+          "time": "3 days ago",
+          "dot": "#1d4ed8"
+        },
+        {
+          "t": "Fee Due Reminder",
+          "p": "Sem V fees due by 1st April",
+          "time": "1 week ago",
+          "dot": "#b91c1c"
+        }
+      ],
+      "SEM_ALL": [
+        {
+          "sem": "Sem I",
+          "sgpa": "8.10",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Mathematics I",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS102",
+              "name": "Physics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 55,
+              "cr": 4
+            },
+            {
+              "code": "CS103",
+              "name": "Programming Fundamentals",
+              "cat": "Core",
+              "int": 27,
+              "ext": 63,
+              "cr": 4
+            },
+            {
+              "code": "CS104",
+              "name": "English Communication",
+              "cat": "Elective",
+              "int": 25,
+              "ext": 58,
+              "cr": 3
+            },
+            {
+              "code": "CS105",
+              "name": "Engineering Drawing Lab",
+              "cat": "Lab",
+              "int": 28,
+              "ext": 65,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem II",
+          "sgpa": "8.35",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Mathematics II",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS202",
+              "name": "Chemistry",
+              "cat": "Core",
+              "int": 25,
+              "ext": 57,
+              "cr": 4
+            },
+            {
+              "code": "CS203",
+              "name": "Data Structures",
+              "cat": "Core",
+              "int": 28,
+              "ext": 66,
+              "cr": 4
+            },
+            {
+              "code": "CS204",
+              "name": "Digital Electronics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS205",
+              "name": "Programming Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem III",
+          "sgpa": "8.42",
+          "subjects": [
+            {
+              "code": "CS301",
+              "name": "Discrete Mathematics",
+              "cat": "Core",
+              "int": 26,
+              "ext": 61,
+              "cr": 4
+            },
+            {
+              "code": "CS302",
+              "name": "Computer Architecture",
+              "cat": "Core",
+              "int": 25,
+              "ext": 59,
+              "cr": 4
+            },
+            {
+              "code": "CS303",
+              "name": "Object Oriented Prog.",
+              "cat": "Core",
+              "int": 28,
+              "ext": 64,
+              "cr": 4
+            },
+            {
+              "code": "CS304",
+              "name": "Probability & Statistics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS305",
+              "name": "OOP Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 67,
+              "cr": 2
+            },
+            {
+              "code": "CS306",
+              "name": "Environmental Science",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 54,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem IV",
+          "sgpa": "8.74",
+          "subjects": [
+            {
+              "code": "CS401",
+              "name": "Data Structures & Algorithms",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS402",
+              "name": "Computer Networks",
+              "cat": "Core",
+              "int": 25,
+              "ext": 58,
+              "cr": 4
+            },
+            {
+              "code": "CS403",
+              "name": "Operating Systems",
+              "cat": "Core",
+              "int": 28,
+              "ext": 65,
+              "cr": 4
+            },
+            {
+              "code": "CS404",
+              "name": "Database Management Systems",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS405",
+              "name": "Software Engineering",
+              "cat": "Elective",
+              "int": 24,
+              "ext": 55,
+              "cr": 3
+            },
+            {
+              "code": "CS406",
+              "name": "Web Technologies Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            },
+            {
+              "code": "CS407",
+              "name": "Artificial Intelligence",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 57,
+              "cr": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "studentId": 2,
+      "SUBJECTS": [
+        {
+          "code": "CS401",
+          "name": "Data Structures & Algorithms",
+          "cat": "Core",
+          "int": 27,
+          "ext": 62,
+          "cr": 4
+        },
+        {
+          "code": "CS402",
+          "name": "Computer Networks",
+          "cat": "Core",
+          "int": 25,
+          "ext": 58,
+          "cr": 4
+        },
+        {
+          "code": "CS403",
+          "name": "Operating Systems",
+          "cat": "Core",
+          "int": 28,
+          "ext": 65,
+          "cr": 4
+        },
+        {
+          "code": "CS404",
+          "name": "Database Management Systems",
+          "cat": "Core",
+          "int": 26,
+          "ext": 60,
+          "cr": 4
+        },
+        {
+          "code": "CS405",
+          "name": "Software Engineering",
+          "cat": "Elective",
+          "int": 24,
+          "ext": 55,
+          "cr": 3
+        },
+        {
+          "code": "CS406",
+          "name": "Web Technologies Lab",
+          "cat": "Lab",
+          "int": 29,
+          "ext": 68,
+          "cr": 2
+        },
+        {
+          "code": "CS407",
+          "name": "Artificial Intelligence",
+          "cat": "Elective",
+          "int": 23,
+          "ext": 57,
+          "cr": 3
+        }
+      ],
+      "EXAMS": [
+        {
+          "n": "Mid-Term Exam",
+          "sub": "Data Structures",
+          "date": "Feb 10",
+          "sc": 28,
+          "max": 30,
+          "clr": "#1d4ed8"
+        },
+        {
+          "n": "Internal Test 2",
+          "sub": "Comp. Networks",
+          "date": "Feb 18",
+          "sc": 23,
+          "max": 25,
+          "clr": "#0c2461"
+        },
+        {
+          "n": "Lab Practical",
+          "sub": "Web Technologies",
+          "date": "Feb 24",
+          "sc": 29,
+          "max": 30,
+          "clr": "#dc2626"
+        },
+        {
+          "n": "Assignment Test",
+          "sub": "AI Fundamentals",
+          "date": "Mar 02",
+          "sc": 19,
+          "max": 20,
+          "clr": "#3b82f6"
+        }
+      ],
+      "NOTICES": [
+        {
+          "t": "Semester V Registration",
+          "p": "Register before 20th March 2026",
+          "time": "2 hrs ago",
+          "dot": "#dc2626"
+        },
+        {
+          "t": "Sem IV Results Declared",
+          "p": "Official result now available",
+          "time": "Yesterday",
+          "dot": "#16a34a"
+        },
+        {
+          "t": "Parent-Teacher Meet",
+          "p": "Scheduled 18th March 2026",
+          "time": "3 days ago",
+          "dot": "#1d4ed8"
+        },
+        {
+          "t": "Fee Due Reminder",
+          "p": "Sem V fees due by 1st April",
+          "time": "1 week ago",
+          "dot": "#b91c1c"
+        }
+      ],
+      "SEM_ALL": [
+        {
+          "sem": "Sem I",
+          "sgpa": "8.10",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Mathematics I",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS102",
+              "name": "Physics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 55,
+              "cr": 4
+            },
+            {
+              "code": "CS103",
+              "name": "Programming Fundamentals",
+              "cat": "Core",
+              "int": 27,
+              "ext": 63,
+              "cr": 4
+            },
+            {
+              "code": "CS104",
+              "name": "English Communication",
+              "cat": "Elective",
+              "int": 25,
+              "ext": 58,
+              "cr": 3
+            },
+            {
+              "code": "CS105",
+              "name": "Engineering Drawing Lab",
+              "cat": "Lab",
+              "int": 28,
+              "ext": 65,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem II",
+          "sgpa": "8.35",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Mathematics II",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS202",
+              "name": "Chemistry",
+              "cat": "Core",
+              "int": 25,
+              "ext": 57,
+              "cr": 4
+            },
+            {
+              "code": "CS203",
+              "name": "Data Structures",
+              "cat": "Core",
+              "int": 28,
+              "ext": 66,
+              "cr": 4
+            },
+            {
+              "code": "CS204",
+              "name": "Digital Electronics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS205",
+              "name": "Programming Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem III",
+          "sgpa": "8.42",
+          "subjects": [
+            {
+              "code": "CS301",
+              "name": "Discrete Mathematics",
+              "cat": "Core",
+              "int": 26,
+              "ext": 61,
+              "cr": 4
+            },
+            {
+              "code": "CS302",
+              "name": "Computer Architecture",
+              "cat": "Core",
+              "int": 25,
+              "ext": 59,
+              "cr": 4
+            },
+            {
+              "code": "CS303",
+              "name": "Object Oriented Prog.",
+              "cat": "Core",
+              "int": 28,
+              "ext": 64,
+              "cr": 4
+            },
+            {
+              "code": "CS304",
+              "name": "Probability & Statistics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS305",
+              "name": "OOP Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 67,
+              "cr": 2
+            },
+            {
+              "code": "CS306",
+              "name": "Environmental Science",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 54,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem IV",
+          "sgpa": "8.74",
+          "subjects": [
+            {
+              "code": "CS401",
+              "name": "Data Structures & Algorithms",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS402",
+              "name": "Computer Networks",
+              "cat": "Core",
+              "int": 25,
+              "ext": 58,
+              "cr": 4
+            },
+            {
+              "code": "CS403",
+              "name": "Operating Systems",
+              "cat": "Core",
+              "int": 28,
+              "ext": 65,
+              "cr": 4
+            },
+            {
+              "code": "CS404",
+              "name": "Database Management Systems",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS405",
+              "name": "Software Engineering",
+              "cat": "Elective",
+              "int": 24,
+              "ext": 55,
+              "cr": 3
+            },
+            {
+              "code": "CS406",
+              "name": "Web Technologies Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            },
+            {
+              "code": "CS407",
+              "name": "Artificial Intelligence",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 57,
+              "cr": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "studentId": 3,
+      "SUBJECTS": [
+        {
+          "code": "CS401",
+          "name": "Data Structures & Algorithms",
+          "cat": "Core",
+          "int": 27,
+          "ext": 62,
+          "cr": 4
+        },
+        {
+          "code": "CS402",
+          "name": "Computer Networks",
+          "cat": "Core",
+          "int": 25,
+          "ext": 58,
+          "cr": 4
+        },
+        {
+          "code": "CS403",
+          "name": "Operating Systems",
+          "cat": "Core",
+          "int": 28,
+          "ext": 65,
+          "cr": 4
+        },
+        {
+          "code": "CS404",
+          "name": "Database Management Systems",
+          "cat": "Core",
+          "int": 26,
+          "ext": 60,
+          "cr": 4
+        },
+        {
+          "code": "CS405",
+          "name": "Software Engineering",
+          "cat": "Elective",
+          "int": 24,
+          "ext": 55,
+          "cr": 3
+        },
+        {
+          "code": "CS406",
+          "name": "Web Technologies Lab",
+          "cat": "Lab",
+          "int": 29,
+          "ext": 68,
+          "cr": 2
+        },
+        {
+          "code": "CS407",
+          "name": "Artificial Intelligence",
+          "cat": "Elective",
+          "int": 23,
+          "ext": 57,
+          "cr": 3
+        }
+      ],
+      "EXAMS": [
+        {
+          "n": "Mid-Term Exam",
+          "sub": "Data Structures",
+          "date": "Feb 10",
+          "sc": 28,
+          "max": 30,
+          "clr": "#1d4ed8"
+        },
+        {
+          "n": "Internal Test 2",
+          "sub": "Comp. Networks",
+          "date": "Feb 18",
+          "sc": 23,
+          "max": 25,
+          "clr": "#0c2461"
+        },
+        {
+          "n": "Lab Practical",
+          "sub": "Web Technologies",
+          "date": "Feb 24",
+          "sc": 29,
+          "max": 30,
+          "clr": "#dc2626"
+        },
+        {
+          "n": "Assignment Test",
+          "sub": "AI Fundamentals",
+          "date": "Mar 02",
+          "sc": 19,
+          "max": 20,
+          "clr": "#3b82f6"
+        }
+      ],
+      "NOTICES": [
+        {
+          "t": "Semester V Registration",
+          "p": "Register before 20th March 2026",
+          "time": "2 hrs ago",
+          "dot": "#dc2626"
+        },
+        {
+          "t": "Sem IV Results Declared",
+          "p": "Official result now available",
+          "time": "Yesterday",
+          "dot": "#16a34a"
+        },
+        {
+          "t": "Parent-Teacher Meet",
+          "p": "Scheduled 18th March 2026",
+          "time": "3 days ago",
+          "dot": "#1d4ed8"
+        },
+        {
+          "t": "Fee Due Reminder",
+          "p": "Sem V fees due by 1st April",
+          "time": "1 week ago",
+          "dot": "#b91c1c"
+        }
+      ],
+      "SEM_ALL": [
+        {
+          "sem": "Sem I",
+          "sgpa": "8.10",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Mathematics I",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS102",
+              "name": "Physics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 55,
+              "cr": 4
+            },
+            {
+              "code": "CS103",
+              "name": "Programming Fundamentals",
+              "cat": "Core",
+              "int": 27,
+              "ext": 63,
+              "cr": 4
+            },
+            {
+              "code": "CS104",
+              "name": "English Communication",
+              "cat": "Elective",
+              "int": 25,
+              "ext": 58,
+              "cr": 3
+            },
+            {
+              "code": "CS105",
+              "name": "Engineering Drawing Lab",
+              "cat": "Lab",
+              "int": 28,
+              "ext": 65,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem II",
+          "sgpa": "8.35",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Mathematics II",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS202",
+              "name": "Chemistry",
+              "cat": "Core",
+              "int": 25,
+              "ext": 57,
+              "cr": 4
+            },
+            {
+              "code": "CS203",
+              "name": "Data Structures",
+              "cat": "Core",
+              "int": 28,
+              "ext": 66,
+              "cr": 4
+            },
+            {
+              "code": "CS204",
+              "name": "Digital Electronics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS205",
+              "name": "Programming Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem III",
+          "sgpa": "8.42",
+          "subjects": [
+            {
+              "code": "CS301",
+              "name": "Discrete Mathematics",
+              "cat": "Core",
+              "int": 26,
+              "ext": 61,
+              "cr": 4
+            },
+            {
+              "code": "CS302",
+              "name": "Computer Architecture",
+              "cat": "Core",
+              "int": 25,
+              "ext": 59,
+              "cr": 4
+            },
+            {
+              "code": "CS303",
+              "name": "Object Oriented Prog.",
+              "cat": "Core",
+              "int": 28,
+              "ext": 64,
+              "cr": 4
+            },
+            {
+              "code": "CS304",
+              "name": "Probability & Statistics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS305",
+              "name": "OOP Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 67,
+              "cr": 2
+            },
+            {
+              "code": "CS306",
+              "name": "Environmental Science",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 54,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem IV",
+          "sgpa": "8.74",
+          "subjects": [
+            {
+              "code": "CS401",
+              "name": "Data Structures & Algorithms",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS402",
+              "name": "Computer Networks",
+              "cat": "Core",
+              "int": 25,
+              "ext": 58,
+              "cr": 4
+            },
+            {
+              "code": "CS403",
+              "name": "Operating Systems",
+              "cat": "Core",
+              "int": 28,
+              "ext": 65,
+              "cr": 4
+            },
+            {
+              "code": "CS404",
+              "name": "Database Management Systems",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS405",
+              "name": "Software Engineering",
+              "cat": "Elective",
+              "int": 24,
+              "ext": 55,
+              "cr": 3
+            },
+            {
+              "code": "CS406",
+              "name": "Web Technologies Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            },
+            {
+              "code": "CS407",
+              "name": "Artificial Intelligence",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 57,
+              "cr": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "studentId": 4,
+      "SUBJECTS": [
+        {
+          "code": "CS401",
+          "name": "Data Structures & Algorithms",
+          "cat": "Core",
+          "int": 27,
+          "ext": 62,
+          "cr": 4
+        },
+        {
+          "code": "CS402",
+          "name": "Computer Networks",
+          "cat": "Core",
+          "int": 25,
+          "ext": 58,
+          "cr": 4
+        },
+        {
+          "code": "CS403",
+          "name": "Operating Systems",
+          "cat": "Core",
+          "int": 28,
+          "ext": 65,
+          "cr": 4
+        },
+        {
+          "code": "CS404",
+          "name": "Database Management Systems",
+          "cat": "Core",
+          "int": 26,
+          "ext": 60,
+          "cr": 4
+        },
+        {
+          "code": "CS405",
+          "name": "Software Engineering",
+          "cat": "Elective",
+          "int": 24,
+          "ext": 55,
+          "cr": 3
+        },
+        {
+          "code": "CS406",
+          "name": "Web Technologies Lab",
+          "cat": "Lab",
+          "int": 29,
+          "ext": 68,
+          "cr": 2
+        },
+        {
+          "code": "CS407",
+          "name": "Artificial Intelligence",
+          "cat": "Elective",
+          "int": 23,
+          "ext": 57,
+          "cr": 3
+        }
+      ],
+      "EXAMS": [
+        {
+          "n": "Mid-Term Exam",
+          "sub": "Data Structures",
+          "date": "Feb 10",
+          "sc": 28,
+          "max": 30,
+          "clr": "#1d4ed8"
+        },
+        {
+          "n": "Internal Test 2",
+          "sub": "Comp. Networks",
+          "date": "Feb 18",
+          "sc": 23,
+          "max": 25,
+          "clr": "#0c2461"
+        },
+        {
+          "n": "Lab Practical",
+          "sub": "Web Technologies",
+          "date": "Feb 24",
+          "sc": 29,
+          "max": 30,
+          "clr": "#dc2626"
+        },
+        {
+          "n": "Assignment Test",
+          "sub": "AI Fundamentals",
+          "date": "Mar 02",
+          "sc": 19,
+          "max": 20,
+          "clr": "#3b82f6"
+        }
+      ],
+      "NOTICES": [
+        {
+          "t": "Semester V Registration",
+          "p": "Register before 20th March 2026",
+          "time": "2 hrs ago",
+          "dot": "#dc2626"
+        },
+        {
+          "t": "Sem IV Results Declared",
+          "p": "Official result now available",
+          "time": "Yesterday",
+          "dot": "#16a34a"
+        },
+        {
+          "t": "Parent-Teacher Meet",
+          "p": "Scheduled 18th March 2026",
+          "time": "3 days ago",
+          "dot": "#1d4ed8"
+        },
+        {
+          "t": "Fee Due Reminder",
+          "p": "Sem V fees due by 1st April",
+          "time": "1 week ago",
+          "dot": "#b91c1c"
+        }
+      ],
+      "SEM_ALL": [
+        {
+          "sem": "Sem I",
+          "sgpa": "8.10",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Mathematics I",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS102",
+              "name": "Physics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 55,
+              "cr": 4
+            },
+            {
+              "code": "CS103",
+              "name": "Programming Fundamentals",
+              "cat": "Core",
+              "int": 27,
+              "ext": 63,
+              "cr": 4
+            },
+            {
+              "code": "CS104",
+              "name": "English Communication",
+              "cat": "Elective",
+              "int": 25,
+              "ext": 58,
+              "cr": 3
+            },
+            {
+              "code": "CS105",
+              "name": "Engineering Drawing Lab",
+              "cat": "Lab",
+              "int": 28,
+              "ext": 65,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem II",
+          "sgpa": "8.35",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Mathematics II",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS202",
+              "name": "Chemistry",
+              "cat": "Core",
+              "int": 25,
+              "ext": 57,
+              "cr": 4
+            },
+            {
+              "code": "CS203",
+              "name": "Data Structures",
+              "cat": "Core",
+              "int": 28,
+              "ext": 66,
+              "cr": 4
+            },
+            {
+              "code": "CS204",
+              "name": "Digital Electronics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS205",
+              "name": "Programming Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem III",
+          "sgpa": "8.42",
+          "subjects": [
+            {
+              "code": "CS301",
+              "name": "Discrete Mathematics",
+              "cat": "Core",
+              "int": 26,
+              "ext": 61,
+              "cr": 4
+            },
+            {
+              "code": "CS302",
+              "name": "Computer Architecture",
+              "cat": "Core",
+              "int": 25,
+              "ext": 59,
+              "cr": 4
+            },
+            {
+              "code": "CS303",
+              "name": "Object Oriented Prog.",
+              "cat": "Core",
+              "int": 28,
+              "ext": 64,
+              "cr": 4
+            },
+            {
+              "code": "CS304",
+              "name": "Probability & Statistics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS305",
+              "name": "OOP Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 67,
+              "cr": 2
+            },
+            {
+              "code": "CS306",
+              "name": "Environmental Science",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 54,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem IV",
+          "sgpa": "8.74",
+          "subjects": [
+            {
+              "code": "CS401",
+              "name": "Data Structures & Algorithms",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS402",
+              "name": "Computer Networks",
+              "cat": "Core",
+              "int": 25,
+              "ext": 58,
+              "cr": 4
+            },
+            {
+              "code": "CS403",
+              "name": "Operating Systems",
+              "cat": "Core",
+              "int": 28,
+              "ext": 65,
+              "cr": 4
+            },
+            {
+              "code": "CS404",
+              "name": "Database Management Systems",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS405",
+              "name": "Software Engineering",
+              "cat": "Elective",
+              "int": 24,
+              "ext": 55,
+              "cr": 3
+            },
+            {
+              "code": "CS406",
+              "name": "Web Technologies Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            },
+            {
+              "code": "CS407",
+              "name": "Artificial Intelligence",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 57,
+              "cr": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "studentId": 5,
+      "SUBJECTS": [
+        {
+          "code": "CS401",
+          "name": "Data Structures & Algorithms",
+          "cat": "Core",
+          "int": 27,
+          "ext": 62,
+          "cr": 4
+        },
+        {
+          "code": "CS402",
+          "name": "Computer Networks",
+          "cat": "Core",
+          "int": 25,
+          "ext": 58,
+          "cr": 4
+        },
+        {
+          "code": "CS403",
+          "name": "Operating Systems",
+          "cat": "Core",
+          "int": 28,
+          "ext": 65,
+          "cr": 4
+        },
+        {
+          "code": "CS404",
+          "name": "Database Management Systems",
+          "cat": "Core",
+          "int": 26,
+          "ext": 60,
+          "cr": 4
+        },
+        {
+          "code": "CS405",
+          "name": "Software Engineering",
+          "cat": "Elective",
+          "int": 24,
+          "ext": 55,
+          "cr": 3
+        },
+        {
+          "code": "CS406",
+          "name": "Web Technologies Lab",
+          "cat": "Lab",
+          "int": 29,
+          "ext": 68,
+          "cr": 2
+        },
+        {
+          "code": "CS407",
+          "name": "Artificial Intelligence",
+          "cat": "Elective",
+          "int": 23,
+          "ext": 57,
+          "cr": 3
+        }
+      ],
+      "EXAMS": [
+        {
+          "n": "Mid-Term Exam",
+          "sub": "Data Structures",
+          "date": "Feb 10",
+          "sc": 28,
+          "max": 30,
+          "clr": "#1d4ed8"
+        },
+        {
+          "n": "Internal Test 2",
+          "sub": "Comp. Networks",
+          "date": "Feb 18",
+          "sc": 23,
+          "max": 25,
+          "clr": "#0c2461"
+        },
+        {
+          "n": "Lab Practical",
+          "sub": "Web Technologies",
+          "date": "Feb 24",
+          "sc": 29,
+          "max": 30,
+          "clr": "#dc2626"
+        },
+        {
+          "n": "Assignment Test",
+          "sub": "AI Fundamentals",
+          "date": "Mar 02",
+          "sc": 19,
+          "max": 20,
+          "clr": "#3b82f6"
+        }
+      ],
+      "NOTICES": [
+        {
+          "t": "Semester V Registration",
+          "p": "Register before 20th March 2026",
+          "time": "2 hrs ago",
+          "dot": "#dc2626"
+        },
+        {
+          "t": "Sem IV Results Declared",
+          "p": "Official result now available",
+          "time": "Yesterday",
+          "dot": "#16a34a"
+        },
+        {
+          "t": "Parent-Teacher Meet",
+          "p": "Scheduled 18th March 2026",
+          "time": "3 days ago",
+          "dot": "#1d4ed8"
+        },
+        {
+          "t": "Fee Due Reminder",
+          "p": "Sem V fees due by 1st April",
+          "time": "1 week ago",
+          "dot": "#b91c1c"
+        }
+      ],
+      "SEM_ALL": [
+        {
+          "sem": "Sem I",
+          "sgpa": "8.10",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Mathematics I",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS102",
+              "name": "Physics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 55,
+              "cr": 4
+            },
+            {
+              "code": "CS103",
+              "name": "Programming Fundamentals",
+              "cat": "Core",
+              "int": 27,
+              "ext": 63,
+              "cr": 4
+            },
+            {
+              "code": "CS104",
+              "name": "English Communication",
+              "cat": "Elective",
+              "int": 25,
+              "ext": 58,
+              "cr": 3
+            },
+            {
+              "code": "CS105",
+              "name": "Engineering Drawing Lab",
+              "cat": "Lab",
+              "int": 28,
+              "ext": 65,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem II",
+          "sgpa": "8.35",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Mathematics II",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS202",
+              "name": "Chemistry",
+              "cat": "Core",
+              "int": 25,
+              "ext": 57,
+              "cr": 4
+            },
+            {
+              "code": "CS203",
+              "name": "Data Structures",
+              "cat": "Core",
+              "int": 28,
+              "ext": 66,
+              "cr": 4
+            },
+            {
+              "code": "CS204",
+              "name": "Digital Electronics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS205",
+              "name": "Programming Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem III",
+          "sgpa": "8.42",
+          "subjects": [
+            {
+              "code": "CS301",
+              "name": "Discrete Mathematics",
+              "cat": "Core",
+              "int": 26,
+              "ext": 61,
+              "cr": 4
+            },
+            {
+              "code": "CS302",
+              "name": "Computer Architecture",
+              "cat": "Core",
+              "int": 25,
+              "ext": 59,
+              "cr": 4
+            },
+            {
+              "code": "CS303",
+              "name": "Object Oriented Prog.",
+              "cat": "Core",
+              "int": 28,
+              "ext": 64,
+              "cr": 4
+            },
+            {
+              "code": "CS304",
+              "name": "Probability & Statistics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS305",
+              "name": "OOP Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 67,
+              "cr": 2
+            },
+            {
+              "code": "CS306",
+              "name": "Environmental Science",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 54,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem IV",
+          "sgpa": "8.74",
+          "subjects": [
+            {
+              "code": "CS401",
+              "name": "Data Structures & Algorithms",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS402",
+              "name": "Computer Networks",
+              "cat": "Core",
+              "int": 25,
+              "ext": 58,
+              "cr": 4
+            },
+            {
+              "code": "CS403",
+              "name": "Operating Systems",
+              "cat": "Core",
+              "int": 28,
+              "ext": 65,
+              "cr": 4
+            },
+            {
+              "code": "CS404",
+              "name": "Database Management Systems",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS405",
+              "name": "Software Engineering",
+              "cat": "Elective",
+              "int": 24,
+              "ext": 55,
+              "cr": 3
+            },
+            {
+              "code": "CS406",
+              "name": "Web Technologies Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            },
+            {
+              "code": "CS407",
+              "name": "Artificial Intelligence",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 57,
+              "cr": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "studentId": 6,
+      "SUBJECTS": [
+        {
+          "code": "CS401",
+          "name": "Data Structures & Algorithms",
+          "cat": "Core",
+          "int": 27,
+          "ext": 62,
+          "cr": 4
+        },
+        {
+          "code": "CS402",
+          "name": "Computer Networks",
+          "cat": "Core",
+          "int": 25,
+          "ext": 58,
+          "cr": 4
+        },
+        {
+          "code": "CS403",
+          "name": "Operating Systems",
+          "cat": "Core",
+          "int": 28,
+          "ext": 65,
+          "cr": 4
+        },
+        {
+          "code": "CS404",
+          "name": "Database Management Systems",
+          "cat": "Core",
+          "int": 26,
+          "ext": 60,
+          "cr": 4
+        },
+        {
+          "code": "CS405",
+          "name": "Software Engineering",
+          "cat": "Elective",
+          "int": 24,
+          "ext": 55,
+          "cr": 3
+        },
+        {
+          "code": "CS406",
+          "name": "Web Technologies Lab",
+          "cat": "Lab",
+          "int": 29,
+          "ext": 68,
+          "cr": 2
+        },
+        {
+          "code": "CS407",
+          "name": "Artificial Intelligence",
+          "cat": "Elective",
+          "int": 23,
+          "ext": 57,
+          "cr": 3
+        }
+      ],
+      "EXAMS": [
+        {
+          "n": "Mid-Term Exam",
+          "sub": "Data Structures",
+          "date": "Feb 10",
+          "sc": 28,
+          "max": 30,
+          "clr": "#1d4ed8"
+        },
+        {
+          "n": "Internal Test 2",
+          "sub": "Comp. Networks",
+          "date": "Feb 18",
+          "sc": 23,
+          "max": 25,
+          "clr": "#0c2461"
+        },
+        {
+          "n": "Lab Practical",
+          "sub": "Web Technologies",
+          "date": "Feb 24",
+          "sc": 29,
+          "max": 30,
+          "clr": "#dc2626"
+        },
+        {
+          "n": "Assignment Test",
+          "sub": "AI Fundamentals",
+          "date": "Mar 02",
+          "sc": 19,
+          "max": 20,
+          "clr": "#3b82f6"
+        }
+      ],
+      "NOTICES": [
+        {
+          "t": "Semester V Registration",
+          "p": "Register before 20th March 2026",
+          "time": "2 hrs ago",
+          "dot": "#dc2626"
+        },
+        {
+          "t": "Sem IV Results Declared",
+          "p": "Official result now available",
+          "time": "Yesterday",
+          "dot": "#16a34a"
+        },
+        {
+          "t": "Parent-Teacher Meet",
+          "p": "Scheduled 18th March 2026",
+          "time": "3 days ago",
+          "dot": "#1d4ed8"
+        },
+        {
+          "t": "Fee Due Reminder",
+          "p": "Sem V fees due by 1st April",
+          "time": "1 week ago",
+          "dot": "#b91c1c"
+        }
+      ],
+      "SEM_ALL": [
+        {
+          "sem": "Sem I",
+          "sgpa": "8.10",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Mathematics I",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS102",
+              "name": "Physics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 55,
+              "cr": 4
+            },
+            {
+              "code": "CS103",
+              "name": "Programming Fundamentals",
+              "cat": "Core",
+              "int": 27,
+              "ext": 63,
+              "cr": 4
+            },
+            {
+              "code": "CS104",
+              "name": "English Communication",
+              "cat": "Elective",
+              "int": 25,
+              "ext": 58,
+              "cr": 3
+            },
+            {
+              "code": "CS105",
+              "name": "Engineering Drawing Lab",
+              "cat": "Lab",
+              "int": 28,
+              "ext": 65,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem II",
+          "sgpa": "8.35",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Mathematics II",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS202",
+              "name": "Chemistry",
+              "cat": "Core",
+              "int": 25,
+              "ext": 57,
+              "cr": 4
+            },
+            {
+              "code": "CS203",
+              "name": "Data Structures",
+              "cat": "Core",
+              "int": 28,
+              "ext": 66,
+              "cr": 4
+            },
+            {
+              "code": "CS204",
+              "name": "Digital Electronics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS205",
+              "name": "Programming Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem III",
+          "sgpa": "8.42",
+          "subjects": [
+            {
+              "code": "CS301",
+              "name": "Discrete Mathematics",
+              "cat": "Core",
+              "int": 26,
+              "ext": 61,
+              "cr": 4
+            },
+            {
+              "code": "CS302",
+              "name": "Computer Architecture",
+              "cat": "Core",
+              "int": 25,
+              "ext": 59,
+              "cr": 4
+            },
+            {
+              "code": "CS303",
+              "name": "Object Oriented Prog.",
+              "cat": "Core",
+              "int": 28,
+              "ext": 64,
+              "cr": 4
+            },
+            {
+              "code": "CS304",
+              "name": "Probability & Statistics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS305",
+              "name": "OOP Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 67,
+              "cr": 2
+            },
+            {
+              "code": "CS306",
+              "name": "Environmental Science",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 54,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem IV",
+          "sgpa": "8.74",
+          "subjects": [
+            {
+              "code": "CS401",
+              "name": "Data Structures & Algorithms",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS402",
+              "name": "Computer Networks",
+              "cat": "Core",
+              "int": 25,
+              "ext": 58,
+              "cr": 4
+            },
+            {
+              "code": "CS403",
+              "name": "Operating Systems",
+              "cat": "Core",
+              "int": 28,
+              "ext": 65,
+              "cr": 4
+            },
+            {
+              "code": "CS404",
+              "name": "Database Management Systems",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS405",
+              "name": "Software Engineering",
+              "cat": "Elective",
+              "int": 24,
+              "ext": 55,
+              "cr": 3
+            },
+            {
+              "code": "CS406",
+              "name": "Web Technologies Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            },
+            {
+              "code": "CS407",
+              "name": "Artificial Intelligence",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 57,
+              "cr": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "studentId": 7,
+      "SUBJECTS": [
+        {
+          "code": "CS401",
+          "name": "Data Structures & Algorithms",
+          "cat": "Core",
+          "int": 27,
+          "ext": 62,
+          "cr": 4
+        },
+        {
+          "code": "CS402",
+          "name": "Computer Networks",
+          "cat": "Core",
+          "int": 25,
+          "ext": 58,
+          "cr": 4
+        },
+        {
+          "code": "CS403",
+          "name": "Operating Systems",
+          "cat": "Core",
+          "int": 28,
+          "ext": 65,
+          "cr": 4
+        },
+        {
+          "code": "CS404",
+          "name": "Database Management Systems",
+          "cat": "Core",
+          "int": 26,
+          "ext": 60,
+          "cr": 4
+        },
+        {
+          "code": "CS405",
+          "name": "Software Engineering",
+          "cat": "Elective",
+          "int": 24,
+          "ext": 55,
+          "cr": 3
+        },
+        {
+          "code": "CS406",
+          "name": "Web Technologies Lab",
+          "cat": "Lab",
+          "int": 29,
+          "ext": 68,
+          "cr": 2
+        },
+        {
+          "code": "CS407",
+          "name": "Artificial Intelligence",
+          "cat": "Elective",
+          "int": 23,
+          "ext": 57,
+          "cr": 3
+        }
+      ],
+      "EXAMS": [
+        {
+          "n": "Mid-Term Exam",
+          "sub": "Data Structures",
+          "date": "Feb 10",
+          "sc": 28,
+          "max": 30,
+          "clr": "#1d4ed8"
+        },
+        {
+          "n": "Internal Test 2",
+          "sub": "Comp. Networks",
+          "date": "Feb 18",
+          "sc": 23,
+          "max": 25,
+          "clr": "#0c2461"
+        },
+        {
+          "n": "Lab Practical",
+          "sub": "Web Technologies",
+          "date": "Feb 24",
+          "sc": 29,
+          "max": 30,
+          "clr": "#dc2626"
+        },
+        {
+          "n": "Assignment Test",
+          "sub": "AI Fundamentals",
+          "date": "Mar 02",
+          "sc": 19,
+          "max": 20,
+          "clr": "#3b82f6"
+        }
+      ],
+      "NOTICES": [
+        {
+          "t": "Semester V Registration",
+          "p": "Register before 20th March 2026",
+          "time": "2 hrs ago",
+          "dot": "#dc2626"
+        },
+        {
+          "t": "Sem IV Results Declared",
+          "p": "Official result now available",
+          "time": "Yesterday",
+          "dot": "#16a34a"
+        },
+        {
+          "t": "Parent-Teacher Meet",
+          "p": "Scheduled 18th March 2026",
+          "time": "3 days ago",
+          "dot": "#1d4ed8"
+        },
+        {
+          "t": "Fee Due Reminder",
+          "p": "Sem V fees due by 1st April",
+          "time": "1 week ago",
+          "dot": "#b91c1c"
+        }
+      ],
+      "SEM_ALL": [
+        {
+          "sem": "Sem I",
+          "sgpa": "8.10",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Mathematics I",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS102",
+              "name": "Physics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 55,
+              "cr": 4
+            },
+            {
+              "code": "CS103",
+              "name": "Programming Fundamentals",
+              "cat": "Core",
+              "int": 27,
+              "ext": 63,
+              "cr": 4
+            },
+            {
+              "code": "CS104",
+              "name": "English Communication",
+              "cat": "Elective",
+              "int": 25,
+              "ext": 58,
+              "cr": 3
+            },
+            {
+              "code": "CS105",
+              "name": "Engineering Drawing Lab",
+              "cat": "Lab",
+              "int": 28,
+              "ext": 65,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem II",
+          "sgpa": "8.35",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Mathematics II",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS202",
+              "name": "Chemistry",
+              "cat": "Core",
+              "int": 25,
+              "ext": 57,
+              "cr": 4
+            },
+            {
+              "code": "CS203",
+              "name": "Data Structures",
+              "cat": "Core",
+              "int": 28,
+              "ext": 66,
+              "cr": 4
+            },
+            {
+              "code": "CS204",
+              "name": "Digital Electronics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS205",
+              "name": "Programming Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem III",
+          "sgpa": "8.42",
+          "subjects": [
+            {
+              "code": "CS301",
+              "name": "Discrete Mathematics",
+              "cat": "Core",
+              "int": 26,
+              "ext": 61,
+              "cr": 4
+            },
+            {
+              "code": "CS302",
+              "name": "Computer Architecture",
+              "cat": "Core",
+              "int": 25,
+              "ext": 59,
+              "cr": 4
+            },
+            {
+              "code": "CS303",
+              "name": "Object Oriented Prog.",
+              "cat": "Core",
+              "int": 28,
+              "ext": 64,
+              "cr": 4
+            },
+            {
+              "code": "CS304",
+              "name": "Probability & Statistics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS305",
+              "name": "OOP Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 67,
+              "cr": 2
+            },
+            {
+              "code": "CS306",
+              "name": "Environmental Science",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 54,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem IV",
+          "sgpa": "8.74",
+          "subjects": [
+            {
+              "code": "CS401",
+              "name": "Data Structures & Algorithms",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS402",
+              "name": "Computer Networks",
+              "cat": "Core",
+              "int": 25,
+              "ext": 58,
+              "cr": 4
+            },
+            {
+              "code": "CS403",
+              "name": "Operating Systems",
+              "cat": "Core",
+              "int": 28,
+              "ext": 65,
+              "cr": 4
+            },
+            {
+              "code": "CS404",
+              "name": "Database Management Systems",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS405",
+              "name": "Software Engineering",
+              "cat": "Elective",
+              "int": 24,
+              "ext": 55,
+              "cr": 3
+            },
+            {
+              "code": "CS406",
+              "name": "Web Technologies Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            },
+            {
+              "code": "CS407",
+              "name": "Artificial Intelligence",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 57,
+              "cr": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "studentId": 8,
+      "SUBJECTS": [
+        {
+          "code": "CS401",
+          "name": "Data Structures & Algorithms",
+          "cat": "Core",
+          "int": 27,
+          "ext": 62,
+          "cr": 4
+        },
+        {
+          "code": "CS402",
+          "name": "Computer Networks",
+          "cat": "Core",
+          "int": 25,
+          "ext": 58,
+          "cr": 4
+        },
+        {
+          "code": "CS403",
+          "name": "Operating Systems",
+          "cat": "Core",
+          "int": 28,
+          "ext": 65,
+          "cr": 4
+        },
+        {
+          "code": "CS404",
+          "name": "Database Management Systems",
+          "cat": "Core",
+          "int": 26,
+          "ext": 60,
+          "cr": 4
+        },
+        {
+          "code": "CS405",
+          "name": "Software Engineering",
+          "cat": "Elective",
+          "int": 24,
+          "ext": 55,
+          "cr": 3
+        },
+        {
+          "code": "CS406",
+          "name": "Web Technologies Lab",
+          "cat": "Lab",
+          "int": 29,
+          "ext": 68,
+          "cr": 2
+        },
+        {
+          "code": "CS407",
+          "name": "Artificial Intelligence",
+          "cat": "Elective",
+          "int": 23,
+          "ext": 57,
+          "cr": 3
+        }
+      ],
+      "EXAMS": [
+        {
+          "n": "Mid-Term Exam",
+          "sub": "Data Structures",
+          "date": "Feb 10",
+          "sc": 28,
+          "max": 30,
+          "clr": "#1d4ed8"
+        },
+        {
+          "n": "Internal Test 2",
+          "sub": "Comp. Networks",
+          "date": "Feb 18",
+          "sc": 23,
+          "max": 25,
+          "clr": "#0c2461"
+        },
+        {
+          "n": "Lab Practical",
+          "sub": "Web Technologies",
+          "date": "Feb 24",
+          "sc": 29,
+          "max": 30,
+          "clr": "#dc2626"
+        },
+        {
+          "n": "Assignment Test",
+          "sub": "AI Fundamentals",
+          "date": "Mar 02",
+          "sc": 19,
+          "max": 20,
+          "clr": "#3b82f6"
+        }
+      ],
+      "NOTICES": [
+        {
+          "t": "Semester V Registration",
+          "p": "Register before 20th March 2026",
+          "time": "2 hrs ago",
+          "dot": "#dc2626"
+        },
+        {
+          "t": "Sem IV Results Declared",
+          "p": "Official result now available",
+          "time": "Yesterday",
+          "dot": "#16a34a"
+        },
+        {
+          "t": "Parent-Teacher Meet",
+          "p": "Scheduled 18th March 2026",
+          "time": "3 days ago",
+          "dot": "#1d4ed8"
+        },
+        {
+          "t": "Fee Due Reminder",
+          "p": "Sem V fees due by 1st April",
+          "time": "1 week ago",
+          "dot": "#b91c1c"
+        }
+      ],
+      "SEM_ALL": [
+        {
+          "sem": "Sem I",
+          "sgpa": "8.10",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Mathematics I",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS102",
+              "name": "Physics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 55,
+              "cr": 4
+            },
+            {
+              "code": "CS103",
+              "name": "Programming Fundamentals",
+              "cat": "Core",
+              "int": 27,
+              "ext": 63,
+              "cr": 4
+            },
+            {
+              "code": "CS104",
+              "name": "English Communication",
+              "cat": "Elective",
+              "int": 25,
+              "ext": 58,
+              "cr": 3
+            },
+            {
+              "code": "CS105",
+              "name": "Engineering Drawing Lab",
+              "cat": "Lab",
+              "int": 28,
+              "ext": 65,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem II",
+          "sgpa": "8.35",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Mathematics II",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS202",
+              "name": "Chemistry",
+              "cat": "Core",
+              "int": 25,
+              "ext": 57,
+              "cr": 4
+            },
+            {
+              "code": "CS203",
+              "name": "Data Structures",
+              "cat": "Core",
+              "int": 28,
+              "ext": 66,
+              "cr": 4
+            },
+            {
+              "code": "CS204",
+              "name": "Digital Electronics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS205",
+              "name": "Programming Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem III",
+          "sgpa": "8.42",
+          "subjects": [
+            {
+              "code": "CS301",
+              "name": "Discrete Mathematics",
+              "cat": "Core",
+              "int": 26,
+              "ext": 61,
+              "cr": 4
+            },
+            {
+              "code": "CS302",
+              "name": "Computer Architecture",
+              "cat": "Core",
+              "int": 25,
+              "ext": 59,
+              "cr": 4
+            },
+            {
+              "code": "CS303",
+              "name": "Object Oriented Prog.",
+              "cat": "Core",
+              "int": 28,
+              "ext": 64,
+              "cr": 4
+            },
+            {
+              "code": "CS304",
+              "name": "Probability & Statistics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS305",
+              "name": "OOP Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 67,
+              "cr": 2
+            },
+            {
+              "code": "CS306",
+              "name": "Environmental Science",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 54,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem IV",
+          "sgpa": "8.74",
+          "subjects": [
+            {
+              "code": "CS401",
+              "name": "Data Structures & Algorithms",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS402",
+              "name": "Computer Networks",
+              "cat": "Core",
+              "int": 25,
+              "ext": 58,
+              "cr": 4
+            },
+            {
+              "code": "CS403",
+              "name": "Operating Systems",
+              "cat": "Core",
+              "int": 28,
+              "ext": 65,
+              "cr": 4
+            },
+            {
+              "code": "CS404",
+              "name": "Database Management Systems",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS405",
+              "name": "Software Engineering",
+              "cat": "Elective",
+              "int": 24,
+              "ext": 55,
+              "cr": 3
+            },
+            {
+              "code": "CS406",
+              "name": "Web Technologies Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            },
+            {
+              "code": "CS407",
+              "name": "Artificial Intelligence",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 57,
+              "cr": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "studentId": 9,
+      "SUBJECTS": [
+        {
+          "code": "CS401",
+          "name": "Data Structures & Algorithms",
+          "cat": "Core",
+          "int": 27,
+          "ext": 62,
+          "cr": 4
+        },
+        {
+          "code": "CS402",
+          "name": "Computer Networks",
+          "cat": "Core",
+          "int": 25,
+          "ext": 58,
+          "cr": 4
+        },
+        {
+          "code": "CS403",
+          "name": "Operating Systems",
+          "cat": "Core",
+          "int": 28,
+          "ext": 65,
+          "cr": 4
+        },
+        {
+          "code": "CS404",
+          "name": "Database Management Systems",
+          "cat": "Core",
+          "int": 26,
+          "ext": 60,
+          "cr": 4
+        },
+        {
+          "code": "CS405",
+          "name": "Software Engineering",
+          "cat": "Elective",
+          "int": 24,
+          "ext": 55,
+          "cr": 3
+        },
+        {
+          "code": "CS406",
+          "name": "Web Technologies Lab",
+          "cat": "Lab",
+          "int": 29,
+          "ext": 68,
+          "cr": 2
+        },
+        {
+          "code": "CS407",
+          "name": "Artificial Intelligence",
+          "cat": "Elective",
+          "int": 23,
+          "ext": 57,
+          "cr": 3
+        }
+      ],
+      "EXAMS": [
+        {
+          "n": "Mid-Term Exam",
+          "sub": "Data Structures",
+          "date": "Feb 10",
+          "sc": 28,
+          "max": 30,
+          "clr": "#1d4ed8"
+        },
+        {
+          "n": "Internal Test 2",
+          "sub": "Comp. Networks",
+          "date": "Feb 18",
+          "sc": 23,
+          "max": 25,
+          "clr": "#0c2461"
+        },
+        {
+          "n": "Lab Practical",
+          "sub": "Web Technologies",
+          "date": "Feb 24",
+          "sc": 29,
+          "max": 30,
+          "clr": "#dc2626"
+        },
+        {
+          "n": "Assignment Test",
+          "sub": "AI Fundamentals",
+          "date": "Mar 02",
+          "sc": 19,
+          "max": 20,
+          "clr": "#3b82f6"
+        }
+      ],
+      "NOTICES": [
+        {
+          "t": "Semester V Registration",
+          "p": "Register before 20th March 2026",
+          "time": "2 hrs ago",
+          "dot": "#dc2626"
+        },
+        {
+          "t": "Sem IV Results Declared",
+          "p": "Official result now available",
+          "time": "Yesterday",
+          "dot": "#16a34a"
+        },
+        {
+          "t": "Parent-Teacher Meet",
+          "p": "Scheduled 18th March 2026",
+          "time": "3 days ago",
+          "dot": "#1d4ed8"
+        },
+        {
+          "t": "Fee Due Reminder",
+          "p": "Sem V fees due by 1st April",
+          "time": "1 week ago",
+          "dot": "#b91c1c"
+        }
+      ],
+      "SEM_ALL": [
+        {
+          "sem": "Sem I",
+          "sgpa": "8.10",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Mathematics I",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS102",
+              "name": "Physics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 55,
+              "cr": 4
+            },
+            {
+              "code": "CS103",
+              "name": "Programming Fundamentals",
+              "cat": "Core",
+              "int": 27,
+              "ext": 63,
+              "cr": 4
+            },
+            {
+              "code": "CS104",
+              "name": "English Communication",
+              "cat": "Elective",
+              "int": 25,
+              "ext": 58,
+              "cr": 3
+            },
+            {
+              "code": "CS105",
+              "name": "Engineering Drawing Lab",
+              "cat": "Lab",
+              "int": 28,
+              "ext": 65,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem II",
+          "sgpa": "8.35",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Mathematics II",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS202",
+              "name": "Chemistry",
+              "cat": "Core",
+              "int": 25,
+              "ext": 57,
+              "cr": 4
+            },
+            {
+              "code": "CS203",
+              "name": "Data Structures",
+              "cat": "Core",
+              "int": 28,
+              "ext": 66,
+              "cr": 4
+            },
+            {
+              "code": "CS204",
+              "name": "Digital Electronics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS205",
+              "name": "Programming Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem III",
+          "sgpa": "8.42",
+          "subjects": [
+            {
+              "code": "CS301",
+              "name": "Discrete Mathematics",
+              "cat": "Core",
+              "int": 26,
+              "ext": 61,
+              "cr": 4
+            },
+            {
+              "code": "CS302",
+              "name": "Computer Architecture",
+              "cat": "Core",
+              "int": 25,
+              "ext": 59,
+              "cr": 4
+            },
+            {
+              "code": "CS303",
+              "name": "Object Oriented Prog.",
+              "cat": "Core",
+              "int": 28,
+              "ext": 64,
+              "cr": 4
+            },
+            {
+              "code": "CS304",
+              "name": "Probability & Statistics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS305",
+              "name": "OOP Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 67,
+              "cr": 2
+            },
+            {
+              "code": "CS306",
+              "name": "Environmental Science",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 54,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem IV",
+          "sgpa": "8.74",
+          "subjects": [
+            {
+              "code": "CS401",
+              "name": "Data Structures & Algorithms",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS402",
+              "name": "Computer Networks",
+              "cat": "Core",
+              "int": 25,
+              "ext": 58,
+              "cr": 4
+            },
+            {
+              "code": "CS403",
+              "name": "Operating Systems",
+              "cat": "Core",
+              "int": 28,
+              "ext": 65,
+              "cr": 4
+            },
+            {
+              "code": "CS404",
+              "name": "Database Management Systems",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS405",
+              "name": "Software Engineering",
+              "cat": "Elective",
+              "int": 24,
+              "ext": 55,
+              "cr": 3
+            },
+            {
+              "code": "CS406",
+              "name": "Web Technologies Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            },
+            {
+              "code": "CS407",
+              "name": "Artificial Intelligence",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 57,
+              "cr": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "studentId": 10,
+      "SUBJECTS": [
+        {
+          "code": "CS401",
+          "name": "Data Structures & Algorithms",
+          "cat": "Core",
+          "int": 27,
+          "ext": 62,
+          "cr": 4
+        },
+        {
+          "code": "CS402",
+          "name": "Computer Networks",
+          "cat": "Core",
+          "int": 25,
+          "ext": 58,
+          "cr": 4
+        },
+        {
+          "code": "CS403",
+          "name": "Operating Systems",
+          "cat": "Core",
+          "int": 28,
+          "ext": 65,
+          "cr": 4
+        },
+        {
+          "code": "CS404",
+          "name": "Database Management Systems",
+          "cat": "Core",
+          "int": 26,
+          "ext": 60,
+          "cr": 4
+        },
+        {
+          "code": "CS405",
+          "name": "Software Engineering",
+          "cat": "Elective",
+          "int": 24,
+          "ext": 55,
+          "cr": 3
+        },
+        {
+          "code": "CS406",
+          "name": "Web Technologies Lab",
+          "cat": "Lab",
+          "int": 29,
+          "ext": 68,
+          "cr": 2
+        },
+        {
+          "code": "CS407",
+          "name": "Artificial Intelligence",
+          "cat": "Elective",
+          "int": 23,
+          "ext": 57,
+          "cr": 3
+        }
+      ],
+      "EXAMS": [
+        {
+          "n": "Mid-Term Exam",
+          "sub": "Data Structures",
+          "date": "Feb 10",
+          "sc": 28,
+          "max": 30,
+          "clr": "#1d4ed8"
+        },
+        {
+          "n": "Internal Test 2",
+          "sub": "Comp. Networks",
+          "date": "Feb 18",
+          "sc": 23,
+          "max": 25,
+          "clr": "#0c2461"
+        },
+        {
+          "n": "Lab Practical",
+          "sub": "Web Technologies",
+          "date": "Feb 24",
+          "sc": 29,
+          "max": 30,
+          "clr": "#dc2626"
+        },
+        {
+          "n": "Assignment Test",
+          "sub": "AI Fundamentals",
+          "date": "Mar 02",
+          "sc": 19,
+          "max": 20,
+          "clr": "#3b82f6"
+        }
+      ],
+      "NOTICES": [
+        {
+          "t": "Semester V Registration",
+          "p": "Register before 20th March 2026",
+          "time": "2 hrs ago",
+          "dot": "#dc2626"
+        },
+        {
+          "t": "Sem IV Results Declared",
+          "p": "Official result now available",
+          "time": "Yesterday",
+          "dot": "#16a34a"
+        },
+        {
+          "t": "Parent-Teacher Meet",
+          "p": "Scheduled 18th March 2026",
+          "time": "3 days ago",
+          "dot": "#1d4ed8"
+        },
+        {
+          "t": "Fee Due Reminder",
+          "p": "Sem V fees due by 1st April",
+          "time": "1 week ago",
+          "dot": "#b91c1c"
+        }
+      ],
+      "SEM_ALL": [
+        {
+          "sem": "Sem I",
+          "sgpa": "8.10",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Mathematics I",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS102",
+              "name": "Physics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 55,
+              "cr": 4
+            },
+            {
+              "code": "CS103",
+              "name": "Programming Fundamentals",
+              "cat": "Core",
+              "int": 27,
+              "ext": 63,
+              "cr": 4
+            },
+            {
+              "code": "CS104",
+              "name": "English Communication",
+              "cat": "Elective",
+              "int": 25,
+              "ext": 58,
+              "cr": 3
+            },
+            {
+              "code": "CS105",
+              "name": "Engineering Drawing Lab",
+              "cat": "Lab",
+              "int": 28,
+              "ext": 65,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem II",
+          "sgpa": "8.35",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Mathematics II",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS202",
+              "name": "Chemistry",
+              "cat": "Core",
+              "int": 25,
+              "ext": 57,
+              "cr": 4
+            },
+            {
+              "code": "CS203",
+              "name": "Data Structures",
+              "cat": "Core",
+              "int": 28,
+              "ext": 66,
+              "cr": 4
+            },
+            {
+              "code": "CS204",
+              "name": "Digital Electronics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS205",
+              "name": "Programming Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem III",
+          "sgpa": "8.42",
+          "subjects": [
+            {
+              "code": "CS301",
+              "name": "Discrete Mathematics",
+              "cat": "Core",
+              "int": 26,
+              "ext": 61,
+              "cr": 4
+            },
+            {
+              "code": "CS302",
+              "name": "Computer Architecture",
+              "cat": "Core",
+              "int": 25,
+              "ext": 59,
+              "cr": 4
+            },
+            {
+              "code": "CS303",
+              "name": "Object Oriented Prog.",
+              "cat": "Core",
+              "int": 28,
+              "ext": 64,
+              "cr": 4
+            },
+            {
+              "code": "CS304",
+              "name": "Probability & Statistics",
+              "cat": "Core",
+              "int": 24,
+              "ext": 56,
+              "cr": 3
+            },
+            {
+              "code": "CS305",
+              "name": "OOP Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 67,
+              "cr": 2
+            },
+            {
+              "code": "CS306",
+              "name": "Environmental Science",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 54,
+              "cr": 2
+            }
+          ]
+        },
+        {
+          "sem": "Sem IV",
+          "sgpa": "8.74",
+          "subjects": [
+            {
+              "code": "CS401",
+              "name": "Data Structures & Algorithms",
+              "cat": "Core",
+              "int": 27,
+              "ext": 62,
+              "cr": 4
+            },
+            {
+              "code": "CS402",
+              "name": "Computer Networks",
+              "cat": "Core",
+              "int": 25,
+              "ext": 58,
+              "cr": 4
+            },
+            {
+              "code": "CS403",
+              "name": "Operating Systems",
+              "cat": "Core",
+              "int": 28,
+              "ext": 65,
+              "cr": 4
+            },
+            {
+              "code": "CS404",
+              "name": "Database Management Systems",
+              "cat": "Core",
+              "int": 26,
+              "ext": 60,
+              "cr": 4
+            },
+            {
+              "code": "CS405",
+              "name": "Software Engineering",
+              "cat": "Elective",
+              "int": 24,
+              "ext": 55,
+              "cr": 3
+            },
+            {
+              "code": "CS406",
+              "name": "Web Technologies Lab",
+              "cat": "Lab",
+              "int": 29,
+              "ext": 68,
+              "cr": 2
+            },
+            {
+              "code": "CS407",
+              "name": "Artificial Intelligence",
+              "cat": "Elective",
+              "int": 23,
+              "ext": 57,
+              "cr": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "attendanceRecords": [
+    {
+      "studentId": 1,
+      "summaryStats": [
+        {
+          "label": "Overall Attendance",
+          "value": "89%",
+          "sub": "142 / 160 days",
+          "icon": "📊",
+          "bg": "linear-gradient(135deg,#1a56c4,#0d3b8c)",
+          "shadow": "rgba(13,59,140,0.35)"
+        },
+        {
+          "label": "Days Present",
+          "value": "142",
+          "sub": "This academic year",
+          "icon": "✅",
+          "bg": "linear-gradient(135deg,#2563eb,#1d4ed8)",
+          "shadow": "rgba(37,99,235,0.3)"
+        },
+        {
+          "label": "Days Absent",
+          "value": "12",
+          "sub": "This academic year",
+          "icon": "❌",
+          "bg": "linear-gradient(135deg,#ef4444,#b91c1c)",
+          "shadow": "rgba(220,38,38,0.3)"
+        }
+      ],
+      "monthlyData": [
+        {
+          "month": "Jun",
+          "pct": 91,
+          "present": 22,
+          "total": 24
+        },
+        {
+          "month": "Jul",
+          "pct": 96,
+          "present": 25,
+          "total": 26
+        },
+        {
+          "month": "Aug",
+          "pct": 87,
+          "present": 20,
+          "total": 23
+        },
+        {
+          "month": "Sep",
+          "pct": 92,
+          "present": 23,
+          "total": 25
+        },
+        {
+          "month": "Oct",
+          "pct": 86,
+          "present": 19,
+          "total": 22
+        },
+        {
+          "month": "Nov",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        }
+      ],
+      "attendanceMap": {
+        "2024-11-1": "present",
+        "2024-11-4": "present",
+        "2024-11-5": "present",
+        "2024-11-6": "absent",
+        "2024-11-7": "present",
+        "2024-11-8": "present",
+        "2024-11-11": "present",
+        "2024-11-12": "present",
+        "2024-11-13": "present",
+        "2024-11-14": "present",
+        "2024-11-15": "present",
+        "2024-11-18": "present",
+        "2024-11-19": "absent",
+        "2024-11-20": "present",
+        "2024-11-21": "present",
+        "2024-11-22": "present",
+        "2024-11-25": "present",
+        "2024-11-26": "present",
+        "2024-11-27": "present",
+        "2024-11-28": "present",
+        "2024-11-29": "present",
+        "2024-10-1": "present",
+        "2024-10-2": "present",
+        "2024-10-3": "present",
+        "2024-10-4": "absent",
+        "2024-10-7": "present",
+        "2024-10-8": "present",
+        "2024-10-9": "present",
+        "2024-10-10": "present",
+        "2024-10-11": "present",
+        "2024-10-14": "present",
+        "2024-10-15": "present",
+        "2024-10-16": "present",
+        "2024-10-17": "present",
+        "2024-10-18": "present",
+        "2024-10-21": "present",
+        "2024-10-22": "present",
+        "2024-10-23": "absent",
+        "2024-10-24": "present",
+        "2024-10-25": "present",
+        "2024-10-28": "present",
+        "2024-10-29": "present",
+        "2024-10-30": "present",
+        "2024-10-31": "present"
+      },
+      "subjects": [
+        {
+          "name": "Data Structures & Algorithms",
+          "pct": 87,
+          "present": 28,
+          "total": 32
+        },
+        {
+          "name": "Computer Networks",
+          "pct": 93,
+          "present": 30,
+          "total": 32
+        },
+        {
+          "name": "Operating Systems",
+          "pct": 90,
+          "present": 27,
+          "total": 30
+        },
+        {
+          "name": "Database Management Systems",
+          "pct": 78,
+          "present": 25,
+          "total": 32
+        },
+        {
+          "name": "Software Engineering",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        },
+        {
+          "name": "Web Technologies Lab",
+          "pct": 70,
+          "present": 14,
+          "total": 20
+        }
+      ]
+    },
+    {
+      "studentId": 2,
+      "summaryStats": [
+        {
+          "label": "Overall Attendance",
+          "value": "89%",
+          "sub": "142 / 160 days",
+          "icon": "📊",
+          "bg": "linear-gradient(135deg,#1a56c4,#0d3b8c)",
+          "shadow": "rgba(13,59,140,0.35)"
+        },
+        {
+          "label": "Days Present",
+          "value": "142",
+          "sub": "This academic year",
+          "icon": "✅",
+          "bg": "linear-gradient(135deg,#2563eb,#1d4ed8)",
+          "shadow": "rgba(37,99,235,0.3)"
+        },
+        {
+          "label": "Days Absent",
+          "value": "12",
+          "sub": "This academic year",
+          "icon": "❌",
+          "bg": "linear-gradient(135deg,#ef4444,#b91c1c)",
+          "shadow": "rgba(220,38,38,0.3)"
+        }
+      ],
+      "monthlyData": [
+        {
+          "month": "Jun",
+          "pct": 91,
+          "present": 22,
+          "total": 24
+        },
+        {
+          "month": "Jul",
+          "pct": 96,
+          "present": 25,
+          "total": 26
+        },
+        {
+          "month": "Aug",
+          "pct": 87,
+          "present": 20,
+          "total": 23
+        },
+        {
+          "month": "Sep",
+          "pct": 92,
+          "present": 23,
+          "total": 25
+        },
+        {
+          "month": "Oct",
+          "pct": 86,
+          "present": 19,
+          "total": 22
+        },
+        {
+          "month": "Nov",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        }
+      ],
+      "attendanceMap": {
+        "2024-11-1": "present",
+        "2024-11-4": "present",
+        "2024-11-5": "present",
+        "2024-11-6": "absent",
+        "2024-11-7": "present",
+        "2024-11-8": "present",
+        "2024-11-11": "present",
+        "2024-11-12": "present",
+        "2024-11-13": "present",
+        "2024-11-14": "present",
+        "2024-11-15": "present",
+        "2024-11-18": "present",
+        "2024-11-19": "absent",
+        "2024-11-20": "present",
+        "2024-11-21": "present",
+        "2024-11-22": "present",
+        "2024-11-25": "present",
+        "2024-11-26": "present",
+        "2024-11-27": "present",
+        "2024-11-28": "present",
+        "2024-11-29": "present",
+        "2024-10-1": "present",
+        "2024-10-2": "present",
+        "2024-10-3": "present",
+        "2024-10-4": "absent",
+        "2024-10-7": "present",
+        "2024-10-8": "present",
+        "2024-10-9": "present",
+        "2024-10-10": "present",
+        "2024-10-11": "present",
+        "2024-10-14": "present",
+        "2024-10-15": "present",
+        "2024-10-16": "present",
+        "2024-10-17": "present",
+        "2024-10-18": "present",
+        "2024-10-21": "present",
+        "2024-10-22": "present",
+        "2024-10-23": "absent",
+        "2024-10-24": "present",
+        "2024-10-25": "present",
+        "2024-10-28": "present",
+        "2024-10-29": "present",
+        "2024-10-30": "present",
+        "2024-10-31": "present"
+      },
+      "subjects": [
+        {
+          "name": "Data Structures & Algorithms",
+          "pct": 87,
+          "present": 28,
+          "total": 32
+        },
+        {
+          "name": "Computer Networks",
+          "pct": 93,
+          "present": 30,
+          "total": 32
+        },
+        {
+          "name": "Operating Systems",
+          "pct": 90,
+          "present": 27,
+          "total": 30
+        },
+        {
+          "name": "Database Management Systems",
+          "pct": 78,
+          "present": 25,
+          "total": 32
+        },
+        {
+          "name": "Software Engineering",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        },
+        {
+          "name": "Web Technologies Lab",
+          "pct": 70,
+          "present": 14,
+          "total": 20
+        }
+      ]
+    },
+    {
+      "studentId": 3,
+      "summaryStats": [
+        {
+          "label": "Overall Attendance",
+          "value": "89%",
+          "sub": "142 / 160 days",
+          "icon": "📊",
+          "bg": "linear-gradient(135deg,#1a56c4,#0d3b8c)",
+          "shadow": "rgba(13,59,140,0.35)"
+        },
+        {
+          "label": "Days Present",
+          "value": "142",
+          "sub": "This academic year",
+          "icon": "✅",
+          "bg": "linear-gradient(135deg,#2563eb,#1d4ed8)",
+          "shadow": "rgba(37,99,235,0.3)"
+        },
+        {
+          "label": "Days Absent",
+          "value": "12",
+          "sub": "This academic year",
+          "icon": "❌",
+          "bg": "linear-gradient(135deg,#ef4444,#b91c1c)",
+          "shadow": "rgba(220,38,38,0.3)"
+        }
+      ],
+      "monthlyData": [
+        {
+          "month": "Jun",
+          "pct": 91,
+          "present": 22,
+          "total": 24
+        },
+        {
+          "month": "Jul",
+          "pct": 96,
+          "present": 25,
+          "total": 26
+        },
+        {
+          "month": "Aug",
+          "pct": 87,
+          "present": 20,
+          "total": 23
+        },
+        {
+          "month": "Sep",
+          "pct": 92,
+          "present": 23,
+          "total": 25
+        },
+        {
+          "month": "Oct",
+          "pct": 86,
+          "present": 19,
+          "total": 22
+        },
+        {
+          "month": "Nov",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        }
+      ],
+      "attendanceMap": {
+        "2024-11-1": "present",
+        "2024-11-4": "present",
+        "2024-11-5": "present",
+        "2024-11-6": "absent",
+        "2024-11-7": "present",
+        "2024-11-8": "present",
+        "2024-11-11": "present",
+        "2024-11-12": "present",
+        "2024-11-13": "present",
+        "2024-11-14": "present",
+        "2024-11-15": "present",
+        "2024-11-18": "present",
+        "2024-11-19": "absent",
+        "2024-11-20": "present",
+        "2024-11-21": "present",
+        "2024-11-22": "present",
+        "2024-11-25": "present",
+        "2024-11-26": "present",
+        "2024-11-27": "present",
+        "2024-11-28": "present",
+        "2024-11-29": "present",
+        "2024-10-1": "present",
+        "2024-10-2": "present",
+        "2024-10-3": "present",
+        "2024-10-4": "absent",
+        "2024-10-7": "present",
+        "2024-10-8": "present",
+        "2024-10-9": "present",
+        "2024-10-10": "present",
+        "2024-10-11": "present",
+        "2024-10-14": "present",
+        "2024-10-15": "present",
+        "2024-10-16": "present",
+        "2024-10-17": "present",
+        "2024-10-18": "present",
+        "2024-10-21": "present",
+        "2024-10-22": "present",
+        "2024-10-23": "absent",
+        "2024-10-24": "present",
+        "2024-10-25": "present",
+        "2024-10-28": "present",
+        "2024-10-29": "present",
+        "2024-10-30": "present",
+        "2024-10-31": "present"
+      },
+      "subjects": [
+        {
+          "name": "Data Structures & Algorithms",
+          "pct": 87,
+          "present": 28,
+          "total": 32
+        },
+        {
+          "name": "Computer Networks",
+          "pct": 93,
+          "present": 30,
+          "total": 32
+        },
+        {
+          "name": "Operating Systems",
+          "pct": 90,
+          "present": 27,
+          "total": 30
+        },
+        {
+          "name": "Database Management Systems",
+          "pct": 78,
+          "present": 25,
+          "total": 32
+        },
+        {
+          "name": "Software Engineering",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        },
+        {
+          "name": "Web Technologies Lab",
+          "pct": 70,
+          "present": 14,
+          "total": 20
+        }
+      ]
+    },
+    {
+      "studentId": 4,
+      "summaryStats": [
+        {
+          "label": "Overall Attendance",
+          "value": "89%",
+          "sub": "142 / 160 days",
+          "icon": "📊",
+          "bg": "linear-gradient(135deg,#1a56c4,#0d3b8c)",
+          "shadow": "rgba(13,59,140,0.35)"
+        },
+        {
+          "label": "Days Present",
+          "value": "142",
+          "sub": "This academic year",
+          "icon": "✅",
+          "bg": "linear-gradient(135deg,#2563eb,#1d4ed8)",
+          "shadow": "rgba(37,99,235,0.3)"
+        },
+        {
+          "label": "Days Absent",
+          "value": "12",
+          "sub": "This academic year",
+          "icon": "❌",
+          "bg": "linear-gradient(135deg,#ef4444,#b91c1c)",
+          "shadow": "rgba(220,38,38,0.3)"
+        }
+      ],
+      "monthlyData": [
+        {
+          "month": "Jun",
+          "pct": 91,
+          "present": 22,
+          "total": 24
+        },
+        {
+          "month": "Jul",
+          "pct": 96,
+          "present": 25,
+          "total": 26
+        },
+        {
+          "month": "Aug",
+          "pct": 87,
+          "present": 20,
+          "total": 23
+        },
+        {
+          "month": "Sep",
+          "pct": 92,
+          "present": 23,
+          "total": 25
+        },
+        {
+          "month": "Oct",
+          "pct": 86,
+          "present": 19,
+          "total": 22
+        },
+        {
+          "month": "Nov",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        }
+      ],
+      "attendanceMap": {
+        "2024-11-1": "present",
+        "2024-11-4": "present",
+        "2024-11-5": "present",
+        "2024-11-6": "absent",
+        "2024-11-7": "present",
+        "2024-11-8": "present",
+        "2024-11-11": "present",
+        "2024-11-12": "present",
+        "2024-11-13": "present",
+        "2024-11-14": "present",
+        "2024-11-15": "present",
+        "2024-11-18": "present",
+        "2024-11-19": "absent",
+        "2024-11-20": "present",
+        "2024-11-21": "present",
+        "2024-11-22": "present",
+        "2024-11-25": "present",
+        "2024-11-26": "present",
+        "2024-11-27": "present",
+        "2024-11-28": "present",
+        "2024-11-29": "present",
+        "2024-10-1": "present",
+        "2024-10-2": "present",
+        "2024-10-3": "present",
+        "2024-10-4": "absent",
+        "2024-10-7": "present",
+        "2024-10-8": "present",
+        "2024-10-9": "present",
+        "2024-10-10": "present",
+        "2024-10-11": "present",
+        "2024-10-14": "present",
+        "2024-10-15": "present",
+        "2024-10-16": "present",
+        "2024-10-17": "present",
+        "2024-10-18": "present",
+        "2024-10-21": "present",
+        "2024-10-22": "present",
+        "2024-10-23": "absent",
+        "2024-10-24": "present",
+        "2024-10-25": "present",
+        "2024-10-28": "present",
+        "2024-10-29": "present",
+        "2024-10-30": "present",
+        "2024-10-31": "present"
+      },
+      "subjects": [
+        {
+          "name": "Data Structures & Algorithms",
+          "pct": 87,
+          "present": 28,
+          "total": 32
+        },
+        {
+          "name": "Computer Networks",
+          "pct": 93,
+          "present": 30,
+          "total": 32
+        },
+        {
+          "name": "Operating Systems",
+          "pct": 90,
+          "present": 27,
+          "total": 30
+        },
+        {
+          "name": "Database Management Systems",
+          "pct": 78,
+          "present": 25,
+          "total": 32
+        },
+        {
+          "name": "Software Engineering",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        },
+        {
+          "name": "Web Technologies Lab",
+          "pct": 70,
+          "present": 14,
+          "total": 20
+        }
+      ]
+    },
+    {
+      "studentId": 5,
+      "summaryStats": [
+        {
+          "label": "Overall Attendance",
+          "value": "89%",
+          "sub": "142 / 160 days",
+          "icon": "📊",
+          "bg": "linear-gradient(135deg,#1a56c4,#0d3b8c)",
+          "shadow": "rgba(13,59,140,0.35)"
+        },
+        {
+          "label": "Days Present",
+          "value": "142",
+          "sub": "This academic year",
+          "icon": "✅",
+          "bg": "linear-gradient(135deg,#2563eb,#1d4ed8)",
+          "shadow": "rgba(37,99,235,0.3)"
+        },
+        {
+          "label": "Days Absent",
+          "value": "12",
+          "sub": "This academic year",
+          "icon": "❌",
+          "bg": "linear-gradient(135deg,#ef4444,#b91c1c)",
+          "shadow": "rgba(220,38,38,0.3)"
+        }
+      ],
+      "monthlyData": [
+        {
+          "month": "Jun",
+          "pct": 91,
+          "present": 22,
+          "total": 24
+        },
+        {
+          "month": "Jul",
+          "pct": 96,
+          "present": 25,
+          "total": 26
+        },
+        {
+          "month": "Aug",
+          "pct": 87,
+          "present": 20,
+          "total": 23
+        },
+        {
+          "month": "Sep",
+          "pct": 92,
+          "present": 23,
+          "total": 25
+        },
+        {
+          "month": "Oct",
+          "pct": 86,
+          "present": 19,
+          "total": 22
+        },
+        {
+          "month": "Nov",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        }
+      ],
+      "attendanceMap": {
+        "2024-11-1": "present",
+        "2024-11-4": "present",
+        "2024-11-5": "present",
+        "2024-11-6": "absent",
+        "2024-11-7": "present",
+        "2024-11-8": "present",
+        "2024-11-11": "present",
+        "2024-11-12": "present",
+        "2024-11-13": "present",
+        "2024-11-14": "present",
+        "2024-11-15": "present",
+        "2024-11-18": "present",
+        "2024-11-19": "absent",
+        "2024-11-20": "present",
+        "2024-11-21": "present",
+        "2024-11-22": "present",
+        "2024-11-25": "present",
+        "2024-11-26": "present",
+        "2024-11-27": "present",
+        "2024-11-28": "present",
+        "2024-11-29": "present",
+        "2024-10-1": "present",
+        "2024-10-2": "present",
+        "2024-10-3": "present",
+        "2024-10-4": "absent",
+        "2024-10-7": "present",
+        "2024-10-8": "present",
+        "2024-10-9": "present",
+        "2024-10-10": "present",
+        "2024-10-11": "present",
+        "2024-10-14": "present",
+        "2024-10-15": "present",
+        "2024-10-16": "present",
+        "2024-10-17": "present",
+        "2024-10-18": "present",
+        "2024-10-21": "present",
+        "2024-10-22": "present",
+        "2024-10-23": "absent",
+        "2024-10-24": "present",
+        "2024-10-25": "present",
+        "2024-10-28": "present",
+        "2024-10-29": "present",
+        "2024-10-30": "present",
+        "2024-10-31": "present"
+      },
+      "subjects": [
+        {
+          "name": "Data Structures & Algorithms",
+          "pct": 87,
+          "present": 28,
+          "total": 32
+        },
+        {
+          "name": "Computer Networks",
+          "pct": 93,
+          "present": 30,
+          "total": 32
+        },
+        {
+          "name": "Operating Systems",
+          "pct": 90,
+          "present": 27,
+          "total": 30
+        },
+        {
+          "name": "Database Management Systems",
+          "pct": 78,
+          "present": 25,
+          "total": 32
+        },
+        {
+          "name": "Software Engineering",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        },
+        {
+          "name": "Web Technologies Lab",
+          "pct": 70,
+          "present": 14,
+          "total": 20
+        }
+      ]
+    },
+    {
+      "studentId": 6,
+      "summaryStats": [
+        {
+          "label": "Overall Attendance",
+          "value": "89%",
+          "sub": "142 / 160 days",
+          "icon": "📊",
+          "bg": "linear-gradient(135deg,#1a56c4,#0d3b8c)",
+          "shadow": "rgba(13,59,140,0.35)"
+        },
+        {
+          "label": "Days Present",
+          "value": "142",
+          "sub": "This academic year",
+          "icon": "✅",
+          "bg": "linear-gradient(135deg,#2563eb,#1d4ed8)",
+          "shadow": "rgba(37,99,235,0.3)"
+        },
+        {
+          "label": "Days Absent",
+          "value": "12",
+          "sub": "This academic year",
+          "icon": "❌",
+          "bg": "linear-gradient(135deg,#ef4444,#b91c1c)",
+          "shadow": "rgba(220,38,38,0.3)"
+        }
+      ],
+      "monthlyData": [
+        {
+          "month": "Jun",
+          "pct": 91,
+          "present": 22,
+          "total": 24
+        },
+        {
+          "month": "Jul",
+          "pct": 96,
+          "present": 25,
+          "total": 26
+        },
+        {
+          "month": "Aug",
+          "pct": 87,
+          "present": 20,
+          "total": 23
+        },
+        {
+          "month": "Sep",
+          "pct": 92,
+          "present": 23,
+          "total": 25
+        },
+        {
+          "month": "Oct",
+          "pct": 86,
+          "present": 19,
+          "total": 22
+        },
+        {
+          "month": "Nov",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        }
+      ],
+      "attendanceMap": {
+        "2024-11-1": "present",
+        "2024-11-4": "present",
+        "2024-11-5": "present",
+        "2024-11-6": "absent",
+        "2024-11-7": "present",
+        "2024-11-8": "present",
+        "2024-11-11": "present",
+        "2024-11-12": "present",
+        "2024-11-13": "present",
+        "2024-11-14": "present",
+        "2024-11-15": "present",
+        "2024-11-18": "present",
+        "2024-11-19": "absent",
+        "2024-11-20": "present",
+        "2024-11-21": "present",
+        "2024-11-22": "present",
+        "2024-11-25": "present",
+        "2024-11-26": "present",
+        "2024-11-27": "present",
+        "2024-11-28": "present",
+        "2024-11-29": "present",
+        "2024-10-1": "present",
+        "2024-10-2": "present",
+        "2024-10-3": "present",
+        "2024-10-4": "absent",
+        "2024-10-7": "present",
+        "2024-10-8": "present",
+        "2024-10-9": "present",
+        "2024-10-10": "present",
+        "2024-10-11": "present",
+        "2024-10-14": "present",
+        "2024-10-15": "present",
+        "2024-10-16": "present",
+        "2024-10-17": "present",
+        "2024-10-18": "present",
+        "2024-10-21": "present",
+        "2024-10-22": "present",
+        "2024-10-23": "absent",
+        "2024-10-24": "present",
+        "2024-10-25": "present",
+        "2024-10-28": "present",
+        "2024-10-29": "present",
+        "2024-10-30": "present",
+        "2024-10-31": "present"
+      },
+      "subjects": [
+        {
+          "name": "Data Structures & Algorithms",
+          "pct": 87,
+          "present": 28,
+          "total": 32
+        },
+        {
+          "name": "Computer Networks",
+          "pct": 93,
+          "present": 30,
+          "total": 32
+        },
+        {
+          "name": "Operating Systems",
+          "pct": 90,
+          "present": 27,
+          "total": 30
+        },
+        {
+          "name": "Database Management Systems",
+          "pct": 78,
+          "present": 25,
+          "total": 32
+        },
+        {
+          "name": "Software Engineering",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        },
+        {
+          "name": "Web Technologies Lab",
+          "pct": 70,
+          "present": 14,
+          "total": 20
+        }
+      ]
+    },
+    {
+      "studentId": 7,
+      "summaryStats": [
+        {
+          "label": "Overall Attendance",
+          "value": "89%",
+          "sub": "142 / 160 days",
+          "icon": "📊",
+          "bg": "linear-gradient(135deg,#1a56c4,#0d3b8c)",
+          "shadow": "rgba(13,59,140,0.35)"
+        },
+        {
+          "label": "Days Present",
+          "value": "142",
+          "sub": "This academic year",
+          "icon": "✅",
+          "bg": "linear-gradient(135deg,#2563eb,#1d4ed8)",
+          "shadow": "rgba(37,99,235,0.3)"
+        },
+        {
+          "label": "Days Absent",
+          "value": "12",
+          "sub": "This academic year",
+          "icon": "❌",
+          "bg": "linear-gradient(135deg,#ef4444,#b91c1c)",
+          "shadow": "rgba(220,38,38,0.3)"
+        }
+      ],
+      "monthlyData": [
+        {
+          "month": "Jun",
+          "pct": 91,
+          "present": 22,
+          "total": 24
+        },
+        {
+          "month": "Jul",
+          "pct": 96,
+          "present": 25,
+          "total": 26
+        },
+        {
+          "month": "Aug",
+          "pct": 87,
+          "present": 20,
+          "total": 23
+        },
+        {
+          "month": "Sep",
+          "pct": 92,
+          "present": 23,
+          "total": 25
+        },
+        {
+          "month": "Oct",
+          "pct": 86,
+          "present": 19,
+          "total": 22
+        },
+        {
+          "month": "Nov",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        }
+      ],
+      "attendanceMap": {
+        "2024-11-1": "present",
+        "2024-11-4": "present",
+        "2024-11-5": "present",
+        "2024-11-6": "absent",
+        "2024-11-7": "present",
+        "2024-11-8": "present",
+        "2024-11-11": "present",
+        "2024-11-12": "present",
+        "2024-11-13": "present",
+        "2024-11-14": "present",
+        "2024-11-15": "present",
+        "2024-11-18": "present",
+        "2024-11-19": "absent",
+        "2024-11-20": "present",
+        "2024-11-21": "present",
+        "2024-11-22": "present",
+        "2024-11-25": "present",
+        "2024-11-26": "present",
+        "2024-11-27": "present",
+        "2024-11-28": "present",
+        "2024-11-29": "present",
+        "2024-10-1": "present",
+        "2024-10-2": "present",
+        "2024-10-3": "present",
+        "2024-10-4": "absent",
+        "2024-10-7": "present",
+        "2024-10-8": "present",
+        "2024-10-9": "present",
+        "2024-10-10": "present",
+        "2024-10-11": "present",
+        "2024-10-14": "present",
+        "2024-10-15": "present",
+        "2024-10-16": "present",
+        "2024-10-17": "present",
+        "2024-10-18": "present",
+        "2024-10-21": "present",
+        "2024-10-22": "present",
+        "2024-10-23": "absent",
+        "2024-10-24": "present",
+        "2024-10-25": "present",
+        "2024-10-28": "present",
+        "2024-10-29": "present",
+        "2024-10-30": "present",
+        "2024-10-31": "present"
+      },
+      "subjects": [
+        {
+          "name": "Data Structures & Algorithms",
+          "pct": 87,
+          "present": 28,
+          "total": 32
+        },
+        {
+          "name": "Computer Networks",
+          "pct": 93,
+          "present": 30,
+          "total": 32
+        },
+        {
+          "name": "Operating Systems",
+          "pct": 90,
+          "present": 27,
+          "total": 30
+        },
+        {
+          "name": "Database Management Systems",
+          "pct": 78,
+          "present": 25,
+          "total": 32
+        },
+        {
+          "name": "Software Engineering",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        },
+        {
+          "name": "Web Technologies Lab",
+          "pct": 70,
+          "present": 14,
+          "total": 20
+        }
+      ]
+    },
+    {
+      "studentId": 8,
+      "summaryStats": [
+        {
+          "label": "Overall Attendance",
+          "value": "89%",
+          "sub": "142 / 160 days",
+          "icon": "📊",
+          "bg": "linear-gradient(135deg,#1a56c4,#0d3b8c)",
+          "shadow": "rgba(13,59,140,0.35)"
+        },
+        {
+          "label": "Days Present",
+          "value": "142",
+          "sub": "This academic year",
+          "icon": "✅",
+          "bg": "linear-gradient(135deg,#2563eb,#1d4ed8)",
+          "shadow": "rgba(37,99,235,0.3)"
+        },
+        {
+          "label": "Days Absent",
+          "value": "12",
+          "sub": "This academic year",
+          "icon": "❌",
+          "bg": "linear-gradient(135deg,#ef4444,#b91c1c)",
+          "shadow": "rgba(220,38,38,0.3)"
+        }
+      ],
+      "monthlyData": [
+        {
+          "month": "Jun",
+          "pct": 91,
+          "present": 22,
+          "total": 24
+        },
+        {
+          "month": "Jul",
+          "pct": 96,
+          "present": 25,
+          "total": 26
+        },
+        {
+          "month": "Aug",
+          "pct": 87,
+          "present": 20,
+          "total": 23
+        },
+        {
+          "month": "Sep",
+          "pct": 92,
+          "present": 23,
+          "total": 25
+        },
+        {
+          "month": "Oct",
+          "pct": 86,
+          "present": 19,
+          "total": 22
+        },
+        {
+          "month": "Nov",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        }
+      ],
+      "attendanceMap": {
+        "2024-11-1": "present",
+        "2024-11-4": "present",
+        "2024-11-5": "present",
+        "2024-11-6": "absent",
+        "2024-11-7": "present",
+        "2024-11-8": "present",
+        "2024-11-11": "present",
+        "2024-11-12": "present",
+        "2024-11-13": "present",
+        "2024-11-14": "present",
+        "2024-11-15": "present",
+        "2024-11-18": "present",
+        "2024-11-19": "absent",
+        "2024-11-20": "present",
+        "2024-11-21": "present",
+        "2024-11-22": "present",
+        "2024-11-25": "present",
+        "2024-11-26": "present",
+        "2024-11-27": "present",
+        "2024-11-28": "present",
+        "2024-11-29": "present",
+        "2024-10-1": "present",
+        "2024-10-2": "present",
+        "2024-10-3": "present",
+        "2024-10-4": "absent",
+        "2024-10-7": "present",
+        "2024-10-8": "present",
+        "2024-10-9": "present",
+        "2024-10-10": "present",
+        "2024-10-11": "present",
+        "2024-10-14": "present",
+        "2024-10-15": "present",
+        "2024-10-16": "present",
+        "2024-10-17": "present",
+        "2024-10-18": "present",
+        "2024-10-21": "present",
+        "2024-10-22": "present",
+        "2024-10-23": "absent",
+        "2024-10-24": "present",
+        "2024-10-25": "present",
+        "2024-10-28": "present",
+        "2024-10-29": "present",
+        "2024-10-30": "present",
+        "2024-10-31": "present"
+      },
+      "subjects": [
+        {
+          "name": "Data Structures & Algorithms",
+          "pct": 87,
+          "present": 28,
+          "total": 32
+        },
+        {
+          "name": "Computer Networks",
+          "pct": 93,
+          "present": 30,
+          "total": 32
+        },
+        {
+          "name": "Operating Systems",
+          "pct": 90,
+          "present": 27,
+          "total": 30
+        },
+        {
+          "name": "Database Management Systems",
+          "pct": 78,
+          "present": 25,
+          "total": 32
+        },
+        {
+          "name": "Software Engineering",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        },
+        {
+          "name": "Web Technologies Lab",
+          "pct": 70,
+          "present": 14,
+          "total": 20
+        }
+      ]
+    },
+    {
+      "studentId": 9,
+      "summaryStats": [
+        {
+          "label": "Overall Attendance",
+          "value": "89%",
+          "sub": "142 / 160 days",
+          "icon": "📊",
+          "bg": "linear-gradient(135deg,#1a56c4,#0d3b8c)",
+          "shadow": "rgba(13,59,140,0.35)"
+        },
+        {
+          "label": "Days Present",
+          "value": "142",
+          "sub": "This academic year",
+          "icon": "✅",
+          "bg": "linear-gradient(135deg,#2563eb,#1d4ed8)",
+          "shadow": "rgba(37,99,235,0.3)"
+        },
+        {
+          "label": "Days Absent",
+          "value": "12",
+          "sub": "This academic year",
+          "icon": "❌",
+          "bg": "linear-gradient(135deg,#ef4444,#b91c1c)",
+          "shadow": "rgba(220,38,38,0.3)"
+        }
+      ],
+      "monthlyData": [
+        {
+          "month": "Jun",
+          "pct": 91,
+          "present": 22,
+          "total": 24
+        },
+        {
+          "month": "Jul",
+          "pct": 96,
+          "present": 25,
+          "total": 26
+        },
+        {
+          "month": "Aug",
+          "pct": 87,
+          "present": 20,
+          "total": 23
+        },
+        {
+          "month": "Sep",
+          "pct": 92,
+          "present": 23,
+          "total": 25
+        },
+        {
+          "month": "Oct",
+          "pct": 86,
+          "present": 19,
+          "total": 22
+        },
+        {
+          "month": "Nov",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        }
+      ],
+      "attendanceMap": {
+        "2024-11-1": "present",
+        "2024-11-4": "present",
+        "2024-11-5": "present",
+        "2024-11-6": "absent",
+        "2024-11-7": "present",
+        "2024-11-8": "present",
+        "2024-11-11": "present",
+        "2024-11-12": "present",
+        "2024-11-13": "present",
+        "2024-11-14": "present",
+        "2024-11-15": "present",
+        "2024-11-18": "present",
+        "2024-11-19": "absent",
+        "2024-11-20": "present",
+        "2024-11-21": "present",
+        "2024-11-22": "present",
+        "2024-11-25": "present",
+        "2024-11-26": "present",
+        "2024-11-27": "present",
+        "2024-11-28": "present",
+        "2024-11-29": "present",
+        "2024-10-1": "present",
+        "2024-10-2": "present",
+        "2024-10-3": "present",
+        "2024-10-4": "absent",
+        "2024-10-7": "present",
+        "2024-10-8": "present",
+        "2024-10-9": "present",
+        "2024-10-10": "present",
+        "2024-10-11": "present",
+        "2024-10-14": "present",
+        "2024-10-15": "present",
+        "2024-10-16": "present",
+        "2024-10-17": "present",
+        "2024-10-18": "present",
+        "2024-10-21": "present",
+        "2024-10-22": "present",
+        "2024-10-23": "absent",
+        "2024-10-24": "present",
+        "2024-10-25": "present",
+        "2024-10-28": "present",
+        "2024-10-29": "present",
+        "2024-10-30": "present",
+        "2024-10-31": "present"
+      },
+      "subjects": [
+        {
+          "name": "Data Structures & Algorithms",
+          "pct": 87,
+          "present": 28,
+          "total": 32
+        },
+        {
+          "name": "Computer Networks",
+          "pct": 93,
+          "present": 30,
+          "total": 32
+        },
+        {
+          "name": "Operating Systems",
+          "pct": 90,
+          "present": 27,
+          "total": 30
+        },
+        {
+          "name": "Database Management Systems",
+          "pct": 78,
+          "present": 25,
+          "total": 32
+        },
+        {
+          "name": "Software Engineering",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        },
+        {
+          "name": "Web Technologies Lab",
+          "pct": 70,
+          "present": 14,
+          "total": 20
+        }
+      ]
+    },
+    {
+      "studentId": 10,
+      "summaryStats": [
+        {
+          "label": "Overall Attendance",
+          "value": "89%",
+          "sub": "142 / 160 days",
+          "icon": "📊",
+          "bg": "linear-gradient(135deg,#1a56c4,#0d3b8c)",
+          "shadow": "rgba(13,59,140,0.35)"
+        },
+        {
+          "label": "Days Present",
+          "value": "142",
+          "sub": "This academic year",
+          "icon": "✅",
+          "bg": "linear-gradient(135deg,#2563eb,#1d4ed8)",
+          "shadow": "rgba(37,99,235,0.3)"
+        },
+        {
+          "label": "Days Absent",
+          "value": "12",
+          "sub": "This academic year",
+          "icon": "❌",
+          "bg": "linear-gradient(135deg,#ef4444,#b91c1c)",
+          "shadow": "rgba(220,38,38,0.3)"
+        }
+      ],
+      "monthlyData": [
+        {
+          "month": "Jun",
+          "pct": 91,
+          "present": 22,
+          "total": 24
+        },
+        {
+          "month": "Jul",
+          "pct": 96,
+          "present": 25,
+          "total": 26
+        },
+        {
+          "month": "Aug",
+          "pct": 87,
+          "present": 20,
+          "total": 23
+        },
+        {
+          "month": "Sep",
+          "pct": 92,
+          "present": 23,
+          "total": 25
+        },
+        {
+          "month": "Oct",
+          "pct": 86,
+          "present": 19,
+          "total": 22
+        },
+        {
+          "month": "Nov",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        }
+      ],
+      "attendanceMap": {
+        "2024-11-1": "present",
+        "2024-11-4": "present",
+        "2024-11-5": "present",
+        "2024-11-6": "absent",
+        "2024-11-7": "present",
+        "2024-11-8": "present",
+        "2024-11-11": "present",
+        "2024-11-12": "present",
+        "2024-11-13": "present",
+        "2024-11-14": "present",
+        "2024-11-15": "present",
+        "2024-11-18": "present",
+        "2024-11-19": "absent",
+        "2024-11-20": "present",
+        "2024-11-21": "present",
+        "2024-11-22": "present",
+        "2024-11-25": "present",
+        "2024-11-26": "present",
+        "2024-11-27": "present",
+        "2024-11-28": "present",
+        "2024-11-29": "present",
+        "2024-10-1": "present",
+        "2024-10-2": "present",
+        "2024-10-3": "present",
+        "2024-10-4": "absent",
+        "2024-10-7": "present",
+        "2024-10-8": "present",
+        "2024-10-9": "present",
+        "2024-10-10": "present",
+        "2024-10-11": "present",
+        "2024-10-14": "present",
+        "2024-10-15": "present",
+        "2024-10-16": "present",
+        "2024-10-17": "present",
+        "2024-10-18": "present",
+        "2024-10-21": "present",
+        "2024-10-22": "present",
+        "2024-10-23": "absent",
+        "2024-10-24": "present",
+        "2024-10-25": "present",
+        "2024-10-28": "present",
+        "2024-10-29": "present",
+        "2024-10-30": "present",
+        "2024-10-31": "present"
+      },
+      "subjects": [
+        {
+          "name": "Data Structures & Algorithms",
+          "pct": 87,
+          "present": 28,
+          "total": 32
+        },
+        {
+          "name": "Computer Networks",
+          "pct": 93,
+          "present": 30,
+          "total": 32
+        },
+        {
+          "name": "Operating Systems",
+          "pct": 90,
+          "present": 27,
+          "total": 30
+        },
+        {
+          "name": "Database Management Systems",
+          "pct": 78,
+          "present": 25,
+          "total": 32
+        },
+        {
+          "name": "Software Engineering",
+          "pct": 90,
+          "present": 18,
+          "total": 20
+        },
+        {
+          "name": "Web Technologies Lab",
+          "pct": 70,
+          "present": 14,
+          "total": 20
+        }
+      ]
+    }
+  ],
+  "paymentRecords": [
+    {
+      "studentId": 1,
+      "transactions": [
+        {
+          "id": "TXN001",
+          "date": "Oct 05, 2023",
+          "amount": 15000,
+          "type": "Tuition Fee - Term 1",
+          "status": "Paid"
+        },
+        {
+          "id": "TXN002",
+          "date": "Nov 12, 2023",
+          "amount": 3000,
+          "type": "Transport Fee",
+          "status": "Paid"
+        }
+      ]
+    },
+    {
+      "studentId": 2,
+      "transactions": [
+        {
+          "id": "TXN001",
+          "date": "Oct 05, 2023",
+          "amount": 15000,
+          "type": "Tuition Fee - Term 1",
+          "status": "Paid"
+        },
+        {
+          "id": "TXN002",
+          "date": "Nov 12, 2023",
+          "amount": 3000,
+          "type": "Transport Fee",
+          "status": "Paid"
+        }
+      ]
+    },
+    {
+      "studentId": 3,
+      "transactions": [
+        {
+          "id": "TXN001",
+          "date": "Oct 05, 2023",
+          "amount": 15000,
+          "type": "Tuition Fee - Term 1",
+          "status": "Paid"
+        },
+        {
+          "id": "TXN002",
+          "date": "Nov 12, 2023",
+          "amount": 3000,
+          "type": "Transport Fee",
+          "status": "Paid"
+        }
+      ]
+    },
+    {
+      "studentId": 4,
+      "transactions": [
+        {
+          "id": "TXN001",
+          "date": "Oct 05, 2023",
+          "amount": 15000,
+          "type": "Tuition Fee - Term 1",
+          "status": "Paid"
+        },
+        {
+          "id": "TXN002",
+          "date": "Nov 12, 2023",
+          "amount": 3000,
+          "type": "Transport Fee",
+          "status": "Paid"
+        }
+      ]
+    },
+    {
+      "studentId": 5,
+      "transactions": [
+        {
+          "id": "TXN001",
+          "date": "Oct 05, 2023",
+          "amount": 15000,
+          "type": "Tuition Fee - Term 1",
+          "status": "Paid"
+        },
+        {
+          "id": "TXN002",
+          "date": "Nov 12, 2023",
+          "amount": 3000,
+          "type": "Transport Fee",
+          "status": "Paid"
+        }
+      ]
+    },
+    {
+      "studentId": 6,
+      "transactions": [
+        {
+          "id": "TXN001",
+          "date": "Oct 05, 2023",
+          "amount": 15000,
+          "type": "Tuition Fee - Term 1",
+          "status": "Paid"
+        },
+        {
+          "id": "TXN002",
+          "date": "Nov 12, 2023",
+          "amount": 3000,
+          "type": "Transport Fee",
+          "status": "Paid"
+        }
+      ]
+    },
+    {
+      "studentId": 7,
+      "transactions": [
+        {
+          "id": "TXN001",
+          "date": "Oct 05, 2023",
+          "amount": 15000,
+          "type": "Tuition Fee - Term 1",
+          "status": "Paid"
+        },
+        {
+          "id": "TXN002",
+          "date": "Nov 12, 2023",
+          "amount": 3000,
+          "type": "Transport Fee",
+          "status": "Paid"
+        }
+      ]
+    },
+    {
+      "studentId": 8,
+      "transactions": [
+        {
+          "id": "TXN001",
+          "date": "Oct 05, 2023",
+          "amount": 15000,
+          "type": "Tuition Fee - Term 1",
+          "status": "Paid"
+        },
+        {
+          "id": "TXN002",
+          "date": "Nov 12, 2023",
+          "amount": 3000,
+          "type": "Transport Fee",
+          "status": "Paid"
+        }
+      ]
+    },
+    {
+      "studentId": 9,
+      "transactions": [
+        {
+          "id": "TXN001",
+          "date": "Oct 05, 2023",
+          "amount": 15000,
+          "type": "Tuition Fee - Term 1",
+          "status": "Paid"
+        },
+        {
+          "id": "TXN002",
+          "date": "Nov 12, 2023",
+          "amount": 3000,
+          "type": "Transport Fee",
+          "status": "Paid"
+        }
+      ]
+    },
+    {
+      "studentId": 10,
+      "transactions": [
+        {
+          "id": "TXN001",
+          "date": "Oct 05, 2023",
+          "amount": 15000,
+          "type": "Tuition Fee - Term 1",
+          "status": "Paid"
+        },
+        {
+          "id": "TXN002",
+          "date": "Nov 12, 2023",
+          "amount": 3000,
+          "type": "Transport Fee",
+          "status": "Paid"
+        }
+      ]
+    }
+  ]
+}
