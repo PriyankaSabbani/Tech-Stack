@@ -1,0 +1,91 @@
+{
+  "departments": [
+    { "id": 1, "name": "Computer Science & Engineering", "hod": "Dr. Ravi Kumar", "students": 480, "faculty": 28 },
+    { "id": 2, "name": "Electronics & Communication", "hod": "Dr. Sunita Rao", "students": 360, "faculty": 22 },
+    { "id": 3, "name": "Mechanical Engineering", "hod": "Dr. Arjun Nair", "students": 420, "faculty": 25 },
+    { "id": 4, "name": "Civil Engineering", "hod": "Dr. Priya Sharma", "students": 310, "faculty": 19 },
+    { "id": 5, "name": "Information Technology", "hod": "Dr. Kavitha Reddy", "students": 390, "faculty": 21 },
+    { "id": 6, "name": "Electrical Engineering", "hod": "Dr. Mohan Das", "students": 270, "faculty": 17 },
+    { "id": 7, "name": "MBA", "hod": "Dr. Ananya Krishnan", "students": 180, "faculty": 14 },
+    { "id": 8, "name": "MCA", "hod": "Dr. Suresh Babu", "students": 120, "faculty": 10 }
+  ],
+  "faculty": [
+    { "id": 1, "name": "Dr. Ravi Kumar", "dept": "CSE", "email": "ravi.kumar@mallareddy.edu.in", "contact": "9876543210", "designation": "Professor & HOD" },
+    { "id": 2, "name": "Dr. Sunita Rao", "dept": "ECE", "email": "sunita.rao@mallareddy.edu.in", "contact": "9876543211", "designation": "Professor & HOD" },
+    { "id": 3, "name": "Prof. Ramesh Naidu", "dept": "CSE", "email": "ramesh.n@mallareddy.edu.in", "contact": "9876543212", "designation": "Associate Professor" },
+    { "id": 4, "name": "Dr. Lakshmi Devi", "dept": "IT", "email": "lakshmi.d@mallareddy.edu.in", "contact": "9876543213", "designation": "Assistant Professor" },
+    { "id": 5, "name": "Prof. Venkat Rao", "dept": "MECH", "email": "venkat.rao@mallareddy.edu.in", "contact": "9876543214", "designation": "Associate Professor" },
+    { "id": 6, "name": "Dr. Padma Priya", "dept": "CIVIL", "email": "padma.p@mallareddy.edu.in", "contact": "9876543215", "designation": "Professor" },
+    { "id": 7, "name": "Prof. Srinivas Reddy", "dept": "EEE", "email": "srinivas.r@mallareddy.edu.in", "contact": "9876543216", "designation": "Assistant Professor" },
+    { "id": 8, "name": "Dr. Meena Kumari", "dept": "MBA", "email": "meena.k@mallareddy.edu.in", "contact": "9876543217", "designation": "Associate Professor" }
+  ],
+  "teachingStaff": [
+    { "id": 1, "name": "Dr. Ravi Kumar", "dept": "CSE", "qualification": "Ph.D", "experience": "15 yrs", "status": "Active" },
+    { "id": 2, "name": "Prof. Ramesh Naidu", "dept": "CSE", "qualification": "M.Tech", "experience": "10 yrs", "status": "Active" },
+    { "id": 3, "name": "Dr. Sunita Rao", "dept": "ECE", "qualification": "Ph.D", "experience": "18 yrs", "status": "Active" },
+    { "id": 4, "name": "Dr. Lakshmi Devi", "dept": "IT", "qualification": "Ph.D", "experience": "12 yrs", "status": "Active" },
+    { "id": 5, "name": "Prof. Venkat Rao", "dept": "MECH", "qualification": "M.E", "experience": "8 yrs", "status": "Active" }
+  ],
+  "nonTeachingStaff": [
+    { "id": 1, "name": "K. Murthy", "role": "Lab Technician", "dept": "CSE", "contact": "9876540001", "status": "Active" },
+    { "id": 2, "name": "S. Lakshmi", "role": "Administrative Asst.", "dept": "Admin", "contact": "9876540002", "status": "Active" },
+    { "id": 3, "name": "P. Raju", "role": "Librarian", "dept": "Library", "contact": "9876540003", "status": "Active" },
+    { "id": 4, "name": "M. Devi", "role": "Accountant", "dept": "Finance", "contact": "9876540004", "status": "Active" },
+    { "id": 5, "name": "R. Kishore", "role": "Security Head", "dept": "Security", "contact": "9876540005", "status": "Active" }
+  ],
+  "transport": [
+    { "id": 1, "bus": "MRC-01", "route": "Secunderabad - College", "driver": "K. Venkatesh", "contact": "9988776601", "students": 45 },
+    { "id": 2, "bus": "MRC-02", "route": "Dilsukhnagar - College", "driver": "M. Raju", "contact": "9988776602", "students": 52 },
+    { "id": 3, "bus": "MRC-03", "route": "Kukatpally - College", "driver": "S. Kumar", "contact": "9988776603", "students": 38 },
+    { "id": 4, "bus": "MRC-04", "route": "Uppal - College", "driver": "P. Naidu", "contact": "9988776604", "students": 41 },
+    { "id": 5, "bus": "MRC-05", "route": "LB Nagar - College", "driver": "R. Reddy", "contact": "9988776605", "students": 49 },
+    { "id": 6, "bus": "MRC-06", "route": "Ameerpet - College", "driver": "T. Rao", "contact": "9988776606", "students": 36 }
+  ],
+  "monthlyFees": [
+    { "month": "Jun", "collected": 18.2, "pending": 3.1 },
+    { "month": "Jul", "collected": 22.5, "pending": 2.8 },
+    { "month": "Aug", "collected": 25.1, "pending": 1.9 },
+    { "month": "Sep", "collected": 20.8, "pending": 3.4 },
+    { "month": "Oct", "collected": 24.3, "pending": 2.2 },
+    { "month": "Nov", "collected": 19.6, "pending": 4.1 }
+  ],
+  "announcements": [
+    { "id": 1, "title": "Semester Exams Schedule Released", "date": "2025-11-10", "priority": "High", "message": "End semester examinations will commence from December 1st, 2025. Timetable uploaded on the portal." },
+    { "id": 2, "title": "Annual Day Celebration", "date": "2025-11-05", "priority": "Medium", "message": "Annual Day will be celebrated on November 25th. All students and faculty are requested to participate." },
+    { "id": 3, "title": "Fee Payment Deadline", "date": "2025-11-01", "priority": "High", "message": "Last date for fee payment is November 20th. Late payments will attract a penalty of Rs.500/day." },
+    { "id": 4, "title": "Sports Week", "date": "2025-10-28", "priority": "Low", "message": "Sports week will be held from November 10-15. Students can register with their department coordinators." }
+  ],
+  "stats": {
+    "totalStudents": 2530,
+    "totalFaculty": 156,
+    "totalDepartments": 8,
+    "totalStaff": 84,
+    "totalBuses": 6,
+    "feeCollected": "Rs.1.3Cr",
+    "feeCollectedCr": 1.30,
+    "feeTotalCr": 1.82,
+    "feePendingL": 52,
+    "feeCollectedPct": 82,
+    "feePendingPct": 18,
+    "professors": 48,
+    "assocProfessors": 62,
+    "asstProfessors": 46,
+    "teachingStaffCount": 156,
+    "nonTeachingStaffCount": 84,
+    "totalStaffCount": 240,
+    "onLeave": 12,
+    "ugPrograms": 4,
+    "activeRoutes": 6,
+    "registeredBusStudents": 261,
+    "breakdownsToday": 0,
+    "scholarshipStudents": 248,
+    "defaulters": 87,
+    "fullyPaid": 1843,
+    "partialPay": 352,
+    "deptCollectionPct": [88, 76, 82, 91, 74, 85]
+  },
+  "credentials": {
+    "email": "chairman@mallareddy.edu.in",
+    "password": "chairman@2025"
+  }
+}
