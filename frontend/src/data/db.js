@@ -1,4 +1,4 @@
-const API_BASE = 'https://admin-panel-erp.onrender.com/api';
+const API_BASE = 'http://localhost:3001/api';
 
 // Dashboard data
 export const getDashboardData = async () => {
