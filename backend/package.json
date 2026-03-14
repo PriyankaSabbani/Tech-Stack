@@ -1,0 +1,25 @@
+{
+  "name": "tech-stack-backend",
+  "version": "1.0.0",
+  "description": "Backend for Tech Stack Faculty app with MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "import-data": "node import-data.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

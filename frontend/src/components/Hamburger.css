@@ -1,0 +1,55 @@
+.hamburger-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1001;
+  transition: 0.3s ease;
+}
+
+.hamburger-line {
+  width: 30px;
+  height: 3px;
+  background: #2563eb;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  transform-origin: 1px;
+}
+
+.hamburger-line.line1 {
+  transform: translateY(0px);
+}
+
+.hamburger-line.line2 {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.hamburger-line.line3 {
+  transform: translateY(0px);
+}
+
+.hamburger-btn.open .line1 {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger-btn.open .line2 {
+  opacity: 0;
+}
+
+.hamburger-btn.open .line3 {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+/* Hide hamburger on desktop */
+@media (min-width: 1024px) {
+  .hamburger-btn {
+    display: none;
+  }
+}
+

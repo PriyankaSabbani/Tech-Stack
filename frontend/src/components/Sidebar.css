@@ -1,0 +1,231 @@
+/* Bootstrap Sidebar Overrides - Dark Glass Theme */
+.sidebar-offcanvas, .sidebar-desktop {
+  --bs-offcanvas-width: 280px;
+  background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%) !important;
+  backdrop-filter: blur(10px);
+}
+
+.sidebar-content {
+  backdrop-filter: blur(20px);
+}
+
+.sidebar-menu .nav-link {
+  color: #94a3b8;
+  border: 2px solid transparent;
+  border-radius: 25px !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 0.25rem;
+}
+
+.sidebar-menu .nav-link:hover {
+  color: white !important;
+  border-color: rgba(59, 130, 246, 0.5);
+  background: rgba(59, 130, 246, 0.15) !important;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+}
+
+.sidebar-menu .nav-link.active {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8) !important;
+  color: white !important;
+  border-color: #1d4ed8;
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+  transform: scale(1.02);
+}
+
+.sidebar-menu .nav-link.active:hover {
+  transform: scale(1.05);
+}
+
+.sidebar-header {
+  border-bottom-color: rgba(255,255,255,0.1) !important;
+}
+
+/* Shine effect */
+.sidebar-menu .nav-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.6s;
+  border-radius: 25px;
+  z-index: 0;
+}
+
+.sidebar-menu .nav-link:hover::before {
+  left: 100%;
+}
+
+.sidebar-menu .nav-link {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Scrollbar */
+.sidebar-menu {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.3) rgba(255,255,255,0.1);
+}
+
+.sidebar-menu::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebar-menu::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.1);
+}
+
+.sidebar-menu::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.3);
+  border-radius: 2px;
+}
+
+/* Glass effect */
+.sidebar-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  flex: none;
+  padding: 1rem 0.5rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.menu-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 85px;
+  padding: 0.625rem 1rem;
+  color: #94a3b8;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid transparent;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.menu-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.6s;
+}
+
+.menu-link:hover::before {
+  left: 100%;
+}
+
+.menu-link:hover {
+  color: white;
+  border-color: rgba(59, 130, 246, 0.5);
+  background: rgba(59, 130, 246, 0.15);
+  backdrop-filter: blur(20px);
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+}
+
+.menu-link.active-link {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+  border-color: #1d4ed8;
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+  transform: scale(1.02);
+}
+
+.menu-link.active-link:hover {
+  transform: scale(1.05);
+}
+
+/* Desktop Vertical */
+@media (min-width: 1024px) {
+  .sidebar-content {
+    align-items: flex-start;
+    padding: 2.5rem 2rem;
+  }
+  
+  .menu {
+    flex-direction: column;
+    gap: 0.75rem;
+    justify-content: flex-start;
+  }
+  
+  .menu-link {
+    min-width: 220px;
+    font-size: 0.95rem;
+    padding: 1rem 1.5rem;
+    justify-content: flex-start;
+  }
+}
+
+/* Mobile Horizontal Scroll */
+@media (max-width: 1023px) {
+  .menu {
+    max-height: 80px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding: 1rem 0.5rem;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255,255,255,0.3) rgba(255,255,255,0.1);
+  }
+  
+  .menu::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  .menu::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.1);
+  }
+  
+  .menu::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.3);
+    border-radius: 2px;
+  }
+}
+
+/* Glassmorphism Effect */
+.sidebar-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  z-index: -1;
+}
+
