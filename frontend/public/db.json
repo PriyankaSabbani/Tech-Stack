@@ -1,0 +1,971 @@
+{
+    "student": {
+        "name": "Arjun Sharma",
+        "id": "STU-2024-0471",
+        "course": "B.Tech Computer Science",
+        "semester": "Semester 5",
+        "avatar": "AS",
+        "rollNo": "CS21B0471",
+        "email": "arjun.sharma@college.edu"
+    },
+    "login": {
+        "studentId": "STU001",
+        "password": "student123"
+    },
+    "attendance": [
+        {
+            "subject": "Data Structures",
+            "code": "CS301",
+            "faculty": "Dr. Ramesh Kumar",
+            "total": 48,
+            "attended": 45,
+            "recent": [
+                "P",
+                "P",
+                "P",
+                "A",
+                "P",
+                "P",
+                "P",
+                "P",
+                "A",
+                "P"
+            ]
+        },
+        {
+            "subject": "Database Systems",
+            "code": "CS302",
+            "faculty": "Prof. Sunita Nair",
+            "total": 42,
+            "attended": 38,
+            "recent": [
+                "P",
+                "P",
+                "A",
+                "P",
+                "P",
+                "P",
+                "A",
+                "P",
+                "P",
+                "P"
+            ]
+        },
+        {
+            "subject": "Computer Networks",
+            "code": "CS303",
+            "faculty": "Dr. Arjun Singh",
+            "total": 40,
+            "attended": 29,
+            "recent": [
+                "P",
+                "A",
+                "A",
+                "P",
+                "P",
+                "A",
+                "P",
+                "A",
+                "P",
+                "P"
+            ]
+        },
+        {
+            "subject": "Mathematics III",
+            "code": "MA301",
+            "faculty": "Prof. Meera Iyer",
+            "total": 36,
+            "attended": 34,
+            "recent": [
+                "P",
+                "P",
+                "P",
+                "P",
+                "A",
+                "P",
+                "P",
+                "P",
+                "P",
+                "P"
+            ]
+        },
+        {
+            "subject": "Operating Systems",
+            "code": "CS304",
+            "faculty": "Dr. Venkat Rao",
+            "total": 44,
+            "attended": 40,
+            "recent": [
+                "P",
+                "P",
+                "P",
+                "P",
+                "P",
+                "A",
+                "P",
+                "P",
+                "A",
+                "P"
+            ]
+        },
+        {
+            "subject": "Software Engineering",
+            "code": "CS305",
+            "faculty": "Prof. Lakshmi",
+            "total": 38,
+            "attended": 32,
+            "recent": [
+                "A",
+                "P",
+                "P",
+                "P",
+                "A",
+                "P",
+                "P",
+                "A",
+                "P",
+                "P"
+            ]
+        }
+    ],
+    "attendanceDates": [
+        "28 Feb",
+        "1 Mar",
+        "3 Mar",
+        "4 Mar",
+        "5 Mar",
+        "6 Mar",
+        "7 Mar",
+        "8 Mar",
+        "10 Mar",
+        "11 Mar"
+    ],
+    "courses": [
+        {
+            "code": "CS301",
+            "name": "Data Structures & Algorithms",
+            "credits": 4,
+            "faculty": "Dr. Ramesh Kumar",
+            "type": "Core",
+            "progress": 68,
+            "color": "#3b82f6",
+            "schedule": "Mon, Wed, Fri — 9:00 AM",
+            "room": "Lab 3",
+            "syllabus": [
+                "Arrays & Linked Lists",
+                "Stacks & Queues",
+                "Trees & BST",
+                "Graphs",
+                "Sorting Algorithms",
+                "Dynamic Programming"
+            ]
+        },
+        {
+            "code": "CS302",
+            "name": "Database Management Systems",
+            "credits": 4,
+            "faculty": "Prof. Sunita Nair",
+            "type": "Core",
+            "progress": 75,
+            "color": "#10b981",
+            "schedule": "Tue, Thu — 11:00 AM",
+            "room": "Room 204",
+            "syllabus": [
+                "ER Model",
+                "Relational Algebra",
+                "SQL",
+                "Normalization",
+                "Transactions",
+                "Indexing"
+            ]
+        },
+        {
+            "code": "CS303",
+            "name": "Computer Networks",
+            "credits": 3,
+            "faculty": "Dr. Arjun Singh",
+            "type": "Core",
+            "progress": 55,
+            "color": "#f59e0b",
+            "schedule": "Mon, Thu — 1:00 PM",
+            "room": "Room 101",
+            "syllabus": [
+                "OSI Model",
+                "TCP/IP",
+                "HTTP & DNS",
+                "Routing",
+                "Subnetting",
+                "Network Security"
+            ]
+        },
+        {
+            "code": "MA301",
+            "name": "Mathematics III",
+            "credits": 4,
+            "faculty": "Prof. Meera Iyer",
+            "type": "Core",
+            "progress": 80,
+            "color": "#8b5cf6",
+            "schedule": "Tue, Thu, Fri — 3:00 PM",
+            "room": "Room 302",
+            "syllabus": [
+                "Laplace Transforms",
+                "Fourier Series",
+                "Partial Differential Eq.",
+                "Complex Analysis",
+                "Z-Transforms",
+                "Numerical Methods"
+            ]
+        },
+        {
+            "code": "CS304",
+            "name": "Operating Systems",
+            "credits": 4,
+            "faculty": "Dr. Venkat Rao",
+            "type": "Core",
+            "progress": 62,
+            "color": "#ec4899",
+            "schedule": "Wed, Fri — 10:00 AM",
+            "room": "Room 205",
+            "syllabus": [
+                "Processes & Threads",
+                "CPU Scheduling",
+                "Memory Management",
+                "File Systems",
+                "Deadlocks",
+                "Virtual Memory"
+            ]
+        },
+        {
+            "code": "CS305",
+            "name": "Software Engineering",
+            "credits": 3,
+            "faculty": "Prof. Lakshmi D",
+            "type": "Elective",
+            "progress": 70,
+            "color": "#06b6d4",
+            "schedule": "Mon, Wed — 2:00 PM",
+            "room": "Room 110",
+            "syllabus": [
+                "SDLC Models",
+                "Agile & Scrum",
+                "UML Diagrams",
+                "Testing",
+                "Project Management",
+                "DevOps Basics"
+            ]
+        }
+    ],
+    "upcomingAssignments": [
+        {
+            "subject": "Data Structures",
+            "title": "Binary Tree Implementation",
+            "due": "15 Mar 2025",
+            "status": "Pending",
+            "type": "Lab"
+        },
+        {
+            "subject": "Database Systems",
+            "title": "ER Diagram — Hospital DB",
+            "due": "18 Mar 2025",
+            "status": "Submitted",
+            "type": "Theory"
+        },
+        {
+            "subject": "Computer Networks",
+            "title": "OSI Model Essay",
+            "due": "20 Mar 2025",
+            "status": "Pending",
+            "type": "Theory"
+        }
+    ],
+    "recentResults": [
+        {
+            "subject": "Operating Systems",
+            "marks": 88,
+            "total": 100,
+            "grade": "A"
+        },
+        {
+            "subject": "Data Structures",
+            "marks": 92,
+            "total": 100,
+            "grade": "A+"
+        },
+        {
+            "subject": "Mathematics III",
+            "marks": 76,
+            "total": 100,
+            "grade": "B+"
+        }
+    ],
+    "quickLinks": [
+        {
+            "icon": "📖",
+            "label": "Study Materials",
+            "key": "materials",
+            "color": "#3b82f6"
+        },
+        {
+            "icon": "✅",
+            "label": "Attendance",
+            "key": "attendance",
+            "color": "#10b981"
+        },
+        {
+            "icon": "🏆",
+            "label": "Results",
+            "key": "results",
+            "color": "#f59e0b"
+        },
+        {
+            "icon": "💳",
+            "label": "Fee Details",
+            "key": "fees",
+            "color": "#8b5cf6"
+        },
+        {
+            "icon": "🚌",
+            "label": "Transport",
+            "key": "transport",
+            "color": "#06b6d4"
+        },
+        {
+            "icon": "🏛️",
+            "label": "Library",
+            "key": "library",
+            "color": "#ec4899"
+        }
+    ],
+    "dashboardStats": {
+        "cgpa": "8.7",
+        "avgAttendance": "87%",
+        "dueFees": "₹0",
+        "enrolledCourses": 6,
+        "assignmentsDue": 2,
+        "libraryBooks": 3
+    },
+    "todaySchedule": [
+        {
+            "time": "9:00 AM",
+            "sub": "Data Structures",
+            "room": "Lab 3",
+            "faculty": "Dr. Ramesh",
+            "color": "#3b82f6"
+        },
+        {
+            "time": "11:00 AM",
+            "sub": "Database Systems",
+            "room": "Room 204",
+            "faculty": "Prof. Nair",
+            "color": "#8b5cf6"
+        },
+        {
+            "time": "1:00 PM",
+            "sub": "Computer Networks",
+            "room": "Room 101",
+            "faculty": "Dr. Singh",
+            "color": "#10b981"
+        },
+        {
+            "time": "3:00 PM",
+            "sub": "Mathematics III",
+            "room": "Room 302",
+            "faculty": "Prof. Iyer",
+            "color": "#f59e0b"
+        }
+    ],
+    "feeHistory": [
+        {
+            "receipt": "RCP-2025-3210",
+            "date": "2025-03-01",
+            "desc": "Tuition Fee — Sem 5",
+            "amount": 45000,
+            "mode": "UPI",
+            "txn": "TXN-UPI-9031",
+            "status": "Paid"
+        },
+        {
+            "receipt": "RCP-2025-1201",
+            "date": "2025-01-10",
+            "desc": "Exam Fee — Sem 5",
+            "amount": 1500,
+            "mode": "Card",
+            "txn": "TXN-CRD-5512",
+            "status": "Paid"
+        },
+        {
+            "receipt": "RCP-2024-4521",
+            "date": "2024-08-05",
+            "desc": "Tuition Fee — Sem 4",
+            "amount": 45000,
+            "mode": "UPI",
+            "txn": "TXN-UPI-4521",
+            "status": "Paid"
+        },
+        {
+            "receipt": "RCP-2024-3308",
+            "date": "2024-08-05",
+            "desc": "Library Fee — Sem 4",
+            "amount": 2000,
+            "mode": "Cash",
+            "txn": "—",
+            "status": "Paid"
+        },
+        {
+            "receipt": "RCP-2024-3002",
+            "date": "2024-08-05",
+            "desc": "Lab Fee — Sem 4",
+            "amount": 3000,
+            "mode": "UPI",
+            "txn": "TXN-UPI-3002",
+            "status": "Paid"
+        }
+    ],
+    "dueItems": [
+        {
+            "desc": "Transport Fee — Annual",
+            "amount": 8000,
+            "dueDate": "2025-03-31",
+            "overdue": false
+        }
+    ],
+    "feeBreakdown": [
+        {
+            "label": "Tuition Fee",
+            "amount": 45000,
+            "paid": 45000
+        },
+        {
+            "label": "Library Fee",
+            "amount": 2000,
+            "paid": 2000
+        },
+        {
+            "label": "Lab Fee",
+            "amount": 3000,
+            "paid": 3000
+        },
+        {
+            "label": "Exam Fee",
+            "amount": 1500,
+            "paid": 1500
+        },
+        {
+            "label": "Transport Fee",
+            "amount": 8000,
+            "paid": 0
+        }
+    ],
+    "borrowedBooks": [
+        {
+            "id": "LB-4821",
+            "title": "Introduction to Algorithms",
+            "author": "Cormen, Leiserson",
+            "isbn": "978-0262033848",
+            "issued": "2025-02-25",
+            "due": "2025-03-25",
+            "status": "On Time",
+            "cover": "📘"
+        },
+        {
+            "id": "LB-3310",
+            "title": "Database System Concepts",
+            "author": "Silberschatz, Korth",
+            "isbn": "978-0078022159",
+            "issued": "2025-02-20",
+            "due": "2025-03-20",
+            "status": "Overdue",
+            "cover": "📗"
+        },
+        {
+            "id": "LB-2201",
+            "title": "Computer Networks",
+            "author": "Andrew Tanenbaum",
+            "isbn": "978-0132126953",
+            "issued": "2025-03-01",
+            "due": "2025-04-01",
+            "status": "On Time",
+            "cover": "📙"
+        }
+    ],
+    "availableBooks": [
+        {
+            "title": "Clean Code",
+            "author": "Robert C. Martin",
+            "available": 3,
+            "category": "Programming",
+            "cover": "📒"
+        },
+        {
+            "title": "The Pragmatic Programmer",
+            "author": "Hunt & Thomas",
+            "available": 1,
+            "category": "Programming",
+            "cover": "📕"
+        },
+        {
+            "title": "Design Patterns",
+            "author": "Gang of Four",
+            "available": 2,
+            "category": "Software Engg.",
+            "cover": "📓"
+        },
+        {
+            "title": "Operating System Concepts",
+            "author": "Silberschatz",
+            "available": 4,
+            "category": "CS Theory",
+            "cover": "📔"
+        },
+        {
+            "title": "Artificial Intelligence: A Modern Approach",
+            "author": "Russell & Norvig",
+            "available": 2,
+            "category": "AI/ML",
+            "cover": "📘"
+        },
+        {
+            "title": "Python Crash Course",
+            "author": "Eric Matthes",
+            "available": 5,
+            "category": "Programming",
+            "cover": "📗"
+        }
+    ],
+    "notifications": [
+        {
+            "id": 1,
+            "type": "fee",
+            "title": "Transport Fee Due",
+            "msg": "Your transport fee of ₹8,000 is due by March 31, 2025. Pay before the deadline to avoid penalties.",
+            "time": "2 hours ago",
+            "date": "2025-03-11",
+            "read": false,
+            "icon": "💳",
+            "color": "#f87171"
+        },
+        {
+            "id": 2,
+            "type": "exam",
+            "title": "Mid-Semester Exam Schedule Released",
+            "msg": "Mid-semester exams for Sem 5 are scheduled from April 7–15, 2025. Check the detailed timetable in the examination section.",
+            "time": "5 hours ago",
+            "date": "2025-03-11",
+            "read": false,
+            "icon": "📝",
+            "color": "#fbbf24"
+        },
+        {
+            "id": 3,
+            "type": "attendance",
+            "title": "Low Attendance Warning",
+            "msg": "Your attendance in Computer Networks (CS303) is 72.5%, which is below the required 75%. Please attend upcoming classes to avoid de-barment.",
+            "time": "1 day ago",
+            "date": "2025-03-10",
+            "read": false,
+            "icon": "⚠️",
+            "color": "#fb923c"
+        },
+        {
+            "id": 4,
+            "type": "material",
+            "title": "New Study Material Uploaded",
+            "msg": "Dr. Ramesh Kumar has uploaded new notes on \"Graph Algorithms — DFS & BFS\" for Data Structures. Access them in Study Materials.",
+            "time": "2 days ago",
+            "date": "2025-03-09",
+            "read": true,
+            "icon": "📖",
+            "color": "#60a5fa"
+        },
+        {
+            "id": 5,
+            "type": "result",
+            "title": "Internal Marks Updated",
+            "msg": "Your internal assessment marks for Database Systems (CS302) have been updated. You scored 48/50. View details in Results.",
+            "time": "3 days ago",
+            "date": "2025-03-08",
+            "read": true,
+            "icon": "🏆",
+            "color": "#34d399"
+        },
+        {
+            "id": 6,
+            "type": "general",
+            "title": "Holiday Notice — March 14",
+            "msg": "There will be no classes and no bus service on March 14, 2025 (Public Holiday). The campus will remain closed for the day.",
+            "time": "4 days ago",
+            "date": "2025-03-07",
+            "read": true,
+            "icon": "🏖️",
+            "color": "#a78bfa"
+        },
+        {
+            "id": 7,
+            "type": "library",
+            "title": "Book Return Reminder",
+            "msg": "Your borrowed book \"Database System Concepts\" was due on March 20, 2025. You have an overdue fine accumulating at ₹5/day.",
+            "time": "5 days ago",
+            "date": "2025-03-06",
+            "read": true,
+            "icon": "🏛️",
+            "color": "#f87171"
+        }
+    ],
+    "semResults": {
+        "Sem 5 (Current)": [
+            {
+                "subject": "Data Structures",
+                "code": "CS301",
+                "internal": 45,
+                "external": 72,
+                "total": 117,
+                "max": 150,
+                "grade": "A",
+                "points": 9
+            },
+            {
+                "subject": "Database Systems",
+                "code": "CS302",
+                "internal": 48,
+                "external": 76,
+                "total": 124,
+                "max": 150,
+                "grade": "A+",
+                "points": 10
+            },
+            {
+                "subject": "Computer Networks",
+                "code": "CS303",
+                "internal": 38,
+                "external": 60,
+                "total": 98,
+                "max": 150,
+                "grade": "B+",
+                "points": 8
+            },
+            {
+                "subject": "Mathematics III",
+                "code": "MA301",
+                "internal": 42,
+                "external": 65,
+                "total": 107,
+                "max": 150,
+                "grade": "A",
+                "points": 9
+            },
+            {
+                "subject": "Operating Systems",
+                "code": "CS304",
+                "internal": 44,
+                "external": 70,
+                "total": 114,
+                "max": 150,
+                "grade": "A",
+                "points": 9
+            },
+            {
+                "subject": "Software Engineering",
+                "code": "CS305",
+                "internal": 36,
+                "external": 55,
+                "total": 91,
+                "max": 150,
+                "grade": "B",
+                "points": 7
+            }
+        ],
+        "Sem 4": [
+            {
+                "subject": "Algorithm Design",
+                "code": "CS401",
+                "internal": 47,
+                "external": 78,
+                "total": 125,
+                "max": 150,
+                "grade": "A+",
+                "points": 10
+            },
+            {
+                "subject": "Computer Architecture",
+                "code": "CS402",
+                "internal": 40,
+                "external": 66,
+                "total": 106,
+                "max": 150,
+                "grade": "A",
+                "points": 9
+            },
+            {
+                "subject": "Theory of Computation",
+                "code": "CS403",
+                "internal": 35,
+                "external": 58,
+                "total": 93,
+                "max": 150,
+                "grade": "B+",
+                "points": 8
+            },
+            {
+                "subject": "Mathematics II",
+                "code": "MA401",
+                "internal": 43,
+                "external": 71,
+                "total": 114,
+                "max": 150,
+                "grade": "A",
+                "points": 9
+            }
+        ],
+        "Sem 3": [
+            {
+                "subject": "OOP with Java",
+                "code": "CS501",
+                "internal": 48,
+                "external": 80,
+                "total": 128,
+                "max": 150,
+                "grade": "A+",
+                "points": 10
+            },
+            {
+                "subject": "Digital Electronics",
+                "code": "EC501",
+                "internal": 39,
+                "external": 62,
+                "total": 101,
+                "max": 150,
+                "grade": "B+",
+                "points": 8
+            },
+            {
+                "subject": "Discrete Mathematics",
+                "code": "MA501",
+                "internal": 44,
+                "external": 73,
+                "total": 117,
+                "max": 150,
+                "grade": "A",
+                "points": 9
+            }
+        ]
+    },
+    "cgpa": {
+        "Sem 5 (Current)": 8.7,
+        "Sem 4": 9.1,
+        "Sem 3": 9.0
+    },
+    "studyMaterials": [
+        {
+            "id": 1,
+            "subject": "Data Structures",
+            "title": "Binary Trees & BST - Lecture Notes",
+            "type": "PDF",
+            "size": "2.4 MB",
+            "date": "2025-03-05",
+            "faculty": "Dr. Ramesh Kumar",
+            "tags": [
+                "Trees",
+                "BST",
+                "Lecture"
+            ]
+        },
+        {
+            "id": 2,
+            "subject": "Data Structures",
+            "title": "Graph Algorithms - Slides",
+            "type": "PPT",
+            "size": "5.1 MB",
+            "date": "2025-03-08",
+            "faculty": "Dr. Ramesh Kumar",
+            "tags": [
+                "Graphs",
+                "DFS",
+                "BFS"
+            ]
+        },
+        {
+            "id": 3,
+            "subject": "Data Structures",
+            "title": "Sorting Algorithms - Video Tutorial",
+            "type": "VIDEO",
+            "size": "180 MB",
+            "date": "2025-03-01",
+            "faculty": "Dr. Ramesh Kumar",
+            "tags": [
+                "Sorting",
+                "Algorithms"
+            ]
+        },
+        {
+            "id": 4,
+            "subject": "Database Systems",
+            "title": "SQL Joins & Queries - Notes",
+            "type": "PDF",
+            "size": "1.8 MB",
+            "date": "2025-03-07",
+            "faculty": "Prof. Sunita Nair",
+            "tags": [
+                "SQL",
+                "Joins"
+            ]
+        },
+        {
+            "id": 5,
+            "subject": "Database Systems",
+            "title": "Normalization Techniques - Slides",
+            "type": "PPT",
+            "size": "3.2 MB",
+            "date": "2025-03-04",
+            "faculty": "Prof. Sunita Nair",
+            "tags": [
+                "Normalization",
+                "3NF"
+            ]
+        },
+        {
+            "id": 6,
+            "subject": "Computer Networks",
+            "title": "TCP/IP Protocol Suite - Notes",
+            "type": "PDF",
+            "size": "3.0 MB",
+            "date": "2025-03-06",
+            "faculty": "Dr. Arjun Singh",
+            "tags": [
+                "TCP/IP",
+                "Protocols"
+            ]
+        },
+        {
+            "id": 7,
+            "subject": "Computer Networks",
+            "title": "Network Security Basics - Video",
+            "type": "VIDEO",
+            "size": "220 MB",
+            "date": "2025-02-28",
+            "faculty": "Dr. Arjun Singh",
+            "tags": [
+                "Security",
+                "Encryption"
+            ]
+        },
+        {
+            "id": 8,
+            "subject": "Mathematics III",
+            "title": "Laplace Transforms - PDF",
+            "type": "PDF",
+            "size": "1.5 MB",
+            "date": "2025-03-03",
+            "faculty": "Prof. Meera Iyer",
+            "tags": [
+                "Laplace",
+                "Transforms"
+            ]
+        },
+        {
+            "id": 9,
+            "subject": "Operating Systems",
+            "title": "Process Scheduling Algorithms",
+            "type": "PPT",
+            "size": "4.1 MB",
+            "date": "2025-03-09",
+            "faculty": "Dr. Venkat Rao",
+            "tags": [
+                "Scheduling",
+                "OS"
+            ]
+        },
+        {
+            "id": 10,
+            "subject": "Software Engineering",
+            "title": "Agile & Scrum Methodology",
+            "type": "PDF",
+            "size": "2.0 MB",
+            "date": "2025-03-10",
+            "faculty": "Prof. Lakshmi",
+            "tags": [
+                "Agile",
+                "Scrum"
+            ]
+        }
+    ],
+    "materialSubjects": [
+        "Data Structures",
+        "Database Systems",
+        "Computer Networks",
+        "Mathematics III",
+        "Operating Systems",
+        "Software Engineering"
+    ],
+    "transportSchedule": [
+        {
+            "day": "Mon–Fri",
+            "time": "8:15 AM",
+            "stop": "BTM Layout (Stop 3)",
+            "route": "Route 1 – Koramangala",
+            "eta": "8:45 AM",
+            "busNo": "KA-01-F-1234"
+        }
+    ],
+    "transportRoute": [
+        {
+            "stop": "Koramangala 4th Block",
+            "time": "7:50 AM",
+            "dist": "0 km",
+            "you": false
+        },
+        {
+            "stop": "Koramangala 6th Block",
+            "time": "8:00 AM",
+            "dist": "2.1 km",
+            "you": false
+        },
+        {
+            "stop": "BTM Layout (Your Stop)",
+            "time": "8:15 AM",
+            "dist": "5.3 km",
+            "you": true
+        },
+        {
+            "stop": "HSR Layout",
+            "time": "8:25 AM",
+            "dist": "8.1 km",
+            "you": false
+        },
+        {
+            "stop": "Silk Board",
+            "time": "8:32 AM",
+            "dist": "10.2 km",
+            "you": false
+        },
+        {
+            "stop": "College Gate",
+            "time": "8:45 AM",
+            "dist": "12.0 km",
+            "you": false
+        }
+    ],
+    "transportNotices": [
+        {
+            "date": "2025-03-10",
+            "msg": "Bus will be 10 minutes late tomorrow due to road maintenance near Silk Board."
+        },
+        {
+            "date": "2025-03-05",
+            "msg": "No bus service on March 14 (Public Holiday). Make alternate arrangements."
+        }
+    ],
+    "transportDetails": {
+        "route": "Route 1 — Koramangala",
+        "busNo": "KA-01-F-1234",
+        "driver": "Suresh Kumar",
+        "driverContact": "+91 98765 43210",
+        "yourStop": "BTM Layout",
+        "pickupTime": "8:15 AM",
+        "arrivalCollege": "8:45 AM",
+        "annualFee": 8000,
+        "distance": "12 km",
+        "status": "Active",
+        "academicYear": "2024-25"
+    }
+}
